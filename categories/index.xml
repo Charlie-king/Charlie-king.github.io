@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Categories - 分类 - 六月河</title>
+    <link>http://example.org/categories/</link>
+    <description>Categories - 分类 - 六月河</description>
+    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 15 Jul 2022 11:34:57 &#43;0800</lastBuildDate><atom:link href="http://example.org/categories/" rel="self" type="application/rss+xml" /><item>
+  <title>draft</title>
+  <link>http://example.org/categories/draft/</link>
+  <pubDate>Fri, 15 Jul 2022 11:34:57 &#43;0800</pubDate>
+  <author>作者</author>
+  <guid>http://example.org/categories/draft/</guid>
+  <description><![CDATA[]]></description>
+</item></channel>
+</rss>
