@@ -4,28 +4,19 @@
 <!--more-->
 
 
-{{< admonition tip "提示" >}}
 
-前端框架轮替变化越来越快
-
-{{< /admonition >}}
-
-  {{< admonition abstract "Abstract" >}}
-    Some abstract tips...
-  {{< /admonition >}}
-
-  {{< admonition info "Info" >}}
-    Some info tips...
-  {{< /admonition >}}
+白驹过隙，白云苍狗。
 
 https://cywhat.cn/
 
-# 2022 遥远的开始
-很久之前和很久之后的事情
-##  《我们仨》
+# 2022遥远的开始
+
+## 《我们仨》
 
 ## 《鹿川有许多粪》
 
 ## 《天生有罪》
 
 ## 《强风吹拂》
+
+## 《茶花女》
