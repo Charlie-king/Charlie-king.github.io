@@ -1,0 +1,11 @@
+{
+    "github": {
+        "silent": true
+    },
+    "build": {
+        "env": {
+            "HUGO_VERSION": "0.101.0",
+            "EXTENDED": true
+        }
+    }
+}
