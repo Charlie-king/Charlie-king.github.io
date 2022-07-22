@@ -1,19 +1,41 @@
-name: Algolia Upload Records
+name: GitHub Pages
+
 on:
-  [push] #推送时执行
+  push:
+    branches:
+      - main  # Set a branch name to trigger deployment
+  pull_request:
+
 jobs:
-  algolia:
+  deploy:
     runs-on: ubuntu-latest
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
     steps:
-      - name: Checkout
-        # 获取代码 Checkout
-        uses: actions/checkout@v2
-      - name: Upload Records
-        # 使用 Action
-        uses: Charlie-king/Algolia-Upload-Records@main
-        # 设置环境变量
+      - uses: actions/checkout@v2
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.101.0'
+          extended: ture
+      - name: Build
+        run: hugo --minify
+
+      - name: Use Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+
+      - name: Install automic-algolia
+        run: | 
+          npm install atomic-algolia
+          npm run algolia
         env:
           APPLICATION_ID: ${{secrets.APPLICATION_ID}}
           ADMIN_API_KEY: ${{secrets.ADMIN_API_KEY}}
           INDEX_NAME: ${{secrets.INDEX_NAME}}
-          FILE_PATH: ${{secrets.FILE_PATH}}
+          FILE_PATH: "./public/index.json"
