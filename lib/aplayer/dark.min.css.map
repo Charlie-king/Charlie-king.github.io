@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "dark.min.css",
-	"sourceRoot": "D:/project/blog",
+	"sourceRoot": "/home/runner/work/hugo-blog/hugo-blog",
 	"sources": [
 		"stdin"
 	],
