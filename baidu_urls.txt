@@ -1,6 +1,6 @@
-https://kingpo.vercel.app/
 https://kingpo.vercel.app/post/
 https://kingpo.vercel.app/post/%E7%AC%AC%E4%B8%89%E4%B8%AA/
+https://kingpo.vercel.app/
 https://kingpo.vercel.app/friends/
 https://kingpo.vercel.app/2022%E8%AF%BB%E4%B9%A6%E8%AE%B0/
 https://kingpo.vercel.app/categories/
