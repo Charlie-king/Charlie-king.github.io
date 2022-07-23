@@ -14,9 +14,15 @@
 ---
 
 {{< style "text-align: center;" div >}}
-  .top{width:500px;height:500px;}
+
   ![AliPay](/images/alipay.png)
   ![WechatPay](/images/wechat.png)
+div{
+	    height: 400px;
+	    width: 400px;
+
+	}
+
 {{< /style >}}
 {{< /admonition >}}
 
