@@ -22,6 +22,7 @@
 
   ![AliPay](/images/alipay_250.png)
   ![WechatPay](/images/wechat_250.png)
+  ![WechatPay](/images/wxqr_250.png)
 
 
 {{< /style >}}
