@@ -1,4 +1,4 @@
-# 留言
+# 留言板
 
 
 {{< admonition tip "Welcome" >}}
