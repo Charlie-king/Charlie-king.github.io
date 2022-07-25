@@ -20,8 +20,8 @@
 
 {{< style "text-align: center;" div >}}
 
-  ![AliPay](/images/alipay_100.png)
-  ![WechatPay](/images/wechat_100.png)
+  ![AliPay](/images/alipay_250.png)
+  ![WechatPay](/images/wechat_250.png)
 
 
 {{< /style >}}
@@ -29,5 +29,4 @@
 
 ---
 
-{{< music server="netease" type="playlist" id="1297742167" loop="all" list-folded="true">}}
 
