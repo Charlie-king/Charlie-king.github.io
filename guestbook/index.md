@@ -1,10 +1,9 @@
 # 留言板
 
-
 {{< admonition tip "我有嘉宾，鼓瑟吹笙" >}}
 {{< typeit >}}
-- 兰陵美酒郁金香，玉碗盛来琥珀光。
-- 但使主人能醉客，不知何处是他乡。
+ 兰陵美酒郁金香，玉碗盛来琥珀光。<br>
+ 但使主人能醉客，不知何处是他乡。
 {{< /typeit >}}
 {{< /admonition >}}
 
@@ -21,8 +20,8 @@
 
 {{< style "text-align: center;" div >}}
 
-  ![AliPay](/images/alipay.png)
-  ![WechatPay](/images/wechat.png)
+  ![AliPay](/images/alipay_100.png)
+  ![WechatPay](/images/wechat_100.png)
 
 
 {{< /style >}}
