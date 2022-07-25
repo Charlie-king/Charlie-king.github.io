@@ -20,10 +20,9 @@
 
 {{< style "text-align: center;" div >}}
 
-  ![AliPay](/images/alipay_250.png)
-  ![WechatPay](/images/wechat_250.png)
-  ![公众号](/images/wxqr_250.png)
-
+  ![支付宝打赏](/images/alipay_250.png)
+  ![微信打赏](/images/wechat_250.png)
+  ![公众号有惊喜](/images/wxqr_250.png)
 
 {{< /style >}}
 {{< /admonition >}}
