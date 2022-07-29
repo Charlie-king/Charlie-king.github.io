@@ -35,7 +35,7 @@ hugo的LoveIt，FixIt主题都集成了admonition shorcode功能，可以比较�
 {{< admonition tip "Tip" >}}
 一个 **提示** 横幅
 {{< /admonition >}}
-<br>
+
 ### note
 ```html
 {{</* admonition */>}}
@@ -45,7 +45,7 @@ hugo的LoveIt，FixIt主题都集成了admonition shorcode功能，可以比较�
 {{< admonition >}}
 一个 **注意** 横幅
 {{< /admonition >}}
-<br>
+
 ### tip 
 ```html
 {{</* admonition tip*/>}}
@@ -55,7 +55,7 @@ hugo的LoveIt，FixIt主题都集成了admonition shorcode功能，可以比较�
 {{< admonition tip "Tip" >}}
 一个 **提示** 横幅
 {{< /admonition >}}
-<br>
+
 ### abstract
 ```html
 {{</* admonition abstract*/>}}
