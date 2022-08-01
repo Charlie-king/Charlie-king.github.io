@@ -19,6 +19,8 @@
 ### 建站工具
 框架：hugo
 
+版本：hugo extended 0.101.0
+
 主题：FixIt
 
 托管：GitHub和vercel
