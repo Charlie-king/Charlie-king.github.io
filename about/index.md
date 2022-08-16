@@ -8,6 +8,7 @@
 {{< admonition info "白云苍狗，岁月如流" >}}
  {{< typeit >}}
   且将新火试新茶，诗酒趁年华。
+
  {{< /typeit >}}
 {{< /admonition >}}
 
