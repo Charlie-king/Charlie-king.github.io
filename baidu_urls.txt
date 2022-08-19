@@ -1,12 +1,13 @@
 https://kingpo.vercel.app/categories/
+https://kingpo.vercel.app/tags/hugo/
+https://kingpo.vercel.app/categories/hugo/
 https://kingpo.vercel.app/posts/
 https://kingpo.vercel.app/tags/
+https://kingpo.vercel.app/posts/202208/2022-8-19d19h37m19s/
+https://kingpo.vercel.app/
 https://kingpo.vercel.app/tags/vs-code/
 https://kingpo.vercel.app/posts/202208/vs-code%E8%87%AA%E5%AE%9A%E4%B9%89%E4%BF%AE%E6%94%B9%E9%80%89%E4%B8%AD%E5%86%85%E5%AE%B9%E5%92%8Ctab%E9%A2%9C%E8%89%B2/
 https://kingpo.vercel.app/categories/%E5%B7%A5%E5%85%B7/
-https://kingpo.vercel.app/
-https://kingpo.vercel.app/tags/hugo/
-https://kingpo.vercel.app/categories/hugo/
 https://kingpo.vercel.app/posts/202208/hugo-github-action%E5%92%8Cvecel%E9%83%A8%E7%BD%B2%E5%90%8E%E6%96%87%E7%AB%A0%E6%9B%B4%E6%96%B0%E6%97%B6%E9%97%B4%E5%BC%82%E5%B8%B8%E4%BF%AE%E5%A4%8D/
 https://kingpo.vercel.app/tags/%E8%AF%BB%E4%B9%A6/
 https://kingpo.vercel.app/categories/%E8%AF%BB%E4%B9%A6/
