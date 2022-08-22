@@ -1,9 +1,10 @@
+https://kingpo.vercel.app/categories/
 https://kingpo.vercel.app/posts/
 https://kingpo.vercel.app/tags/
+https://kingpo.vercel.app/tags/%E5%8D%9A%E5%AE%A2/
+https://kingpo.vercel.app/categories/%E5%8D%9A%E5%AE%A2/
 https://kingpo.vercel.app/
 https://kingpo.vercel.app/posts/202208/%E6%8A%80%E6%9C%AFgravatar%E5%A4%B4%E5%83%8F%E9%85%8D%E7%BD%AE%E5%92%8C%E9%95%9C%E5%83%8F%E5%9C%B0%E5%9D%80%E6%90%9C%E9%9B%86/
-https://kingpo.vercel.app/tags/%E5%A4%B4%E5%83%8F/
-https://kingpo.vercel.app/categories/
 https://kingpo.vercel.app/tags/draft/
 https://kingpo.vercel.app/categories/draft/
 https://kingpo.vercel.app/posts/202208/%E6%8A%80%E6%9C%AF%E5%BC%80%E5%90%AFvaline%E8%AF%84%E8%AE%BA/
