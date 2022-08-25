@@ -14,8 +14,9 @@
 {{< admonition success "部署" >}}
 #### 本站部署于以下平台，请选择一个访问最快的进行访问
 - [gitHub.io](https://charlie-king.github.io)
-- [vercel.app](https://kingpo.vercel.app/)
-- [独立域名zhjin.eu.org](https://zhjin.eu.org/)
+- [vercel.app](https://kingpo.vercel.app/)[独立域名zhjin.eu.org](https://zhjin.eu.org/)
+- [netlify.app](https://kingpo.netlify.app/)
+- [gitee.io]()
 {{< /admonition >}}
 
 
