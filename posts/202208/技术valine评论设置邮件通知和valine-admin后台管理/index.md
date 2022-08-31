@@ -1,6 +1,7 @@
 # valine评论设置邮件通知和valine-admin后台管理
 
 
+![回复样式](https://s.imgkb.xyz/abcdocker/2022/08/30/9fd8124a02846/9fd8124a02846.png )
 <!--more-->
 ## 给valine评论系统升级
 valine评论系统搭起来后，整体比较简洁，甚至，简单。
