@@ -1,10 +1,10 @@
-https://kingpo.vercel.app/posts/202209/2022-9-7d9h7m10s/
 https://kingpo.vercel.app/categories/
 https://kingpo.vercel.app/tags/draft/
 https://kingpo.vercel.app/categories/draft/
 https://kingpo.vercel.app/posts/
 https://kingpo.vercel.app/tags/
 https://kingpo.vercel.app/
+https://kingpo.vercel.app/posts/202209/2022-9-7d9h7m10s/
 https://kingpo.vercel.app/tags/kindle/
 https://kingpo.vercel.app/posts/202209/%E6%8A%80%E6%9C%AFkindle%E8%81%94%E7%BD%91%E8%A7%A3%E5%86%B3/
 https://kingpo.vercel.app/categories/%E6%8A%80%E6%9C%AF%E9%97%AE%E9%A2%98/
