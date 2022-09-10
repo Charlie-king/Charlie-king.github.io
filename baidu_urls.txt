@@ -1,10 +1,11 @@
 https://kingpo.vercel.app/categories/
 https://kingpo.vercel.app/posts/
 https://kingpo.vercel.app/tags/
+https://kingpo.vercel.app/tags/tim/
 https://kingpo.vercel.app/categories/tim/
-https://kingpo.vercel.app/tags/tim%E9%82%AE%E7%AE%B1/
-https://kingpo.vercel.app/posts/202209/2022-9-7d9h7m10s/
+https://kingpo.vercel.app/posts/202209/%E6%8A%80%E6%9C%AFtim%E9%82%AE%E7%AE%B1%E9%97%AE%E9%A2%98/
 https://kingpo.vercel.app/
+https://kingpo.vercel.app/tags/%E9%82%AE%E7%AE%B1/
 https://kingpo.vercel.app/tags/hugo/
 https://kingpo.vercel.app/categories/hugo/
 https://kingpo.vercel.app/posts/202209/%E6%8A%80%E6%9C%AFvaline%E8%AF%84%E8%AE%BA%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5%E5%92%8Cvaline-admin%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86/
