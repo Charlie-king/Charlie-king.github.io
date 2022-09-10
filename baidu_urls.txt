@@ -1,10 +1,13 @@
 https://kingpo.vercel.app/categories/
+https://kingpo.vercel.app/tags/draft/
+https://kingpo.vercel.app/categories/draft/
+https://kingpo.vercel.app/posts/202209/%E6%8A%80%E6%9C%AFobisidian%E8%BF%9B%E8%A1%8C%E6%9C%AC%E5%9C%B0hugo%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%E7%BC%96%E8%BE%91/
 https://kingpo.vercel.app/posts/
 https://kingpo.vercel.app/tags/
+https://kingpo.vercel.app/
 https://kingpo.vercel.app/tags/tim/
 https://kingpo.vercel.app/categories/tim/
 https://kingpo.vercel.app/posts/202209/%E6%8A%80%E6%9C%AFtim%E9%82%AE%E7%AE%B1%E9%97%AE%E9%A2%98/
-https://kingpo.vercel.app/
 https://kingpo.vercel.app/tags/%E9%82%AE%E7%AE%B1/
 https://kingpo.vercel.app/tags/hugo/
 https://kingpo.vercel.app/categories/hugo/
