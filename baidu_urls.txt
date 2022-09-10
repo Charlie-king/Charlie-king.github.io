@@ -5,6 +5,9 @@ https://kingpo.vercel.app/posts/
 https://kingpo.vercel.app/tags/
 https://kingpo.vercel.app/
 https://kingpo.vercel.app/posts/202209/2022-9-7d9h7m10s/
+https://kingpo.vercel.app/tags/hugo/
+https://kingpo.vercel.app/categories/hugo/
+https://kingpo.vercel.app/posts/202209/%E6%8A%80%E6%9C%AFvaline%E8%AF%84%E8%AE%BA%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5%E5%92%8Cvaline-admin%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86/
 https://kingpo.vercel.app/tags/kindle/
 https://kingpo.vercel.app/posts/202209/%E6%8A%80%E6%9C%AFkindle%E8%81%94%E7%BD%91%E8%A7%A3%E5%86%B3/
 https://kingpo.vercel.app/categories/%E6%8A%80%E6%9C%AF%E9%97%AE%E9%A2%98/
@@ -13,12 +16,10 @@ https://kingpo.vercel.app/posts/202209/%E6%8A%80%E6%9C%AFwordppt%E5%88%A0%E9%99%
 https://kingpo.vercel.app/tags/%E5%8D%9A%E5%AE%A2/
 https://kingpo.vercel.app/categories/%E5%8D%9A%E5%AE%A2/
 https://kingpo.vercel.app/posts/202208/%E6%8A%80%E6%9C%AFgravatar%E5%A4%B4%E5%83%8F%E9%85%8D%E7%BD%AE%E5%92%8C%E9%95%9C%E5%83%8F%E5%9C%B0%E5%9D%80%E6%90%9C%E9%9B%86/
-https://kingpo.vercel.app/tags/hugo/
 https://kingpo.vercel.app/posts/202208/%E6%8A%80%E6%9C%AF%E5%BC%80%E5%90%AFvaline%E8%AF%84%E8%AE%BA/
 https://kingpo.vercel.app/tags/vs-code/
 https://kingpo.vercel.app/posts/202208/%E6%8A%80%E6%9C%AFvs-code%E8%87%AA%E5%AE%9A%E4%B9%89%E4%BF%AE%E6%94%B9%E9%80%89%E4%B8%AD%E5%86%85%E5%AE%B9%E5%92%8Ctab%E9%A2%9C%E8%89%B2/
 https://kingpo.vercel.app/categories/%E5%B7%A5%E5%85%B7/
-https://kingpo.vercel.app/categories/hugo/
 https://kingpo.vercel.app/posts/202208/%E6%8A%80%E6%9C%AFhugo-github-action%E5%92%8Cvecel%E9%83%A8%E7%BD%B2%E5%90%8E%E6%96%87%E7%AB%A0%E6%9B%B4%E6%96%B0%E6%97%B6%E9%97%B4%E5%BC%82%E5%B8%B8%E4%BF%AE%E5%A4%8D/
 https://kingpo.vercel.app/tags/%E8%AF%BB%E4%B9%A6/
 https://kingpo.vercel.app/categories/%E8%AF%BB%E4%B9%A6/
@@ -40,4 +41,3 @@ https://kingpo.vercel.app/posts/201902/%E9%9A%8F%E7%AC%94%E6%9D%91%E5%BA%84%E5%B
 https://kingpo.vercel.app/posts/201812/%E8%AF%BB%E4%B9%A6%E4%B8%80%E5%9C%BA%E5%AD%9F%E4%B9%B0%E7%9A%84%E6%83%8A%E5%BF%83%E5%8A%A8%E9%AD%84%E6%B5%81%E4%BA%A1%E4%B9%8B%E6%97%85%E4%B8%80%E6%9C%AC%E7%88%B1%E7%9A%84%E5%B8%83%E9%81%93%E4%B9%A6/
 https://kingpo.vercel.app/posts/201705/%E9%9A%8F%E7%AC%94%E4%B8%80%E5%8F%AA%E6%96%91%E9%A9%AC%E7%9A%84%E5%A4%A7%E5%AD%A6%E6%97%B6%E5%85%89/
 https://kingpo.vercel.app/posts/201506/%E9%9A%8F%E7%AC%94%E8%8C%B6%E9%AD%82/
-https://kingpo.vercel.app/posts/101/%E6%8A%80%E6%9C%AFvaline%E8%AF%84%E8%AE%BA%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5%E5%92%8Cvaline-admin%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86/
