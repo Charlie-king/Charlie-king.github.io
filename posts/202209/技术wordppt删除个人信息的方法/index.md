@@ -1,7 +1,7 @@
 # word/excel/ppt/pdf删除文档个人信息的方式
 
 
-![](https://s3.bmp.ovh/imgs/2022/09/06/7983564a617c1fc0.png)
+![]()
 
 <!--more-->
 ### word，excel，ppt删除个人信息
