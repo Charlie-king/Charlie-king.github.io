@@ -1,9 +1,12 @@
 https://zhjin.eu.org/categories/
+https://zhjin.eu.org/tags/draft/
+https://zhjin.eu.org/categories/draft/
 https://zhjin.eu.org/posts/
 https://zhjin.eu.org/tags/
+https://zhjin.eu.org/posts/202209/%E6%8A%80%E6%9C%AF%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E5%A4%9A%E7%AB%AF%E5%90%8C%E6%AD%A5%E9%83%A8%E7%BD%B2/
+https://zhjin.eu.org/
 https://zhjin.eu.org/tags/%E7%9F%AD%E7%BD%91%E5%9D%80/
 https://zhjin.eu.org/categories/%E7%9F%AD%E7%BD%91%E5%9D%80/
-https://zhjin.eu.org/
 https://zhjin.eu.org/posts/202209/%E6%8A%80%E6%9C%AFcloudflare%E6%90%AD%E4%B8%AA%E4%BA%BA%E7%9F%AD%E9%93%BE%E6%9C%8D%E5%8A%A1/
 https://zhjin.eu.org/tags/hugo/
 https://zhjin.eu.org/categories/%E5%8D%9A%E5%AE%A2/
