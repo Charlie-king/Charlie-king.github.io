@@ -194,3 +194,9 @@ Value: 你的web域名
 >Valine Admin 配置手册  https://deserts.io/valine-admin-document/
 
 
+
+---
+
+> 作者: Kingpo  
+> URL: https://zhjin.eu.org/posts/202209/%E6%8A%80%E6%9C%AFvaline%E8%AF%84%E8%AE%BA%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5%E5%92%8Cvaline-admin%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86/  
+

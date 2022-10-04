@@ -91,3 +91,9 @@ module.exports = async function (context, req) {
 
 > Hugo 博客写作最佳实践  https://zhuanlan.zhihu.com/p/497671233
 
+
+---
+
+> 作者: Kingpo  
+> URL: https://zhjin.eu.org/posts/202209/%E6%8A%80%E6%9C%AFhugo-obisidian-vscode/  
+

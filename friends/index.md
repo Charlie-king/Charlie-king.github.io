@@ -22,3 +22,9 @@
 3. 欢迎交流，花径不曾缘客扫，蓬门今始为君开。
 {{< /admonition >}}
 
+
+---
+
+> 作者: Kingpo  
+> URL: https://zhjin.eu.org/friends/  
+

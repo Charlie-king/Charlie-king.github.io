@@ -51,3 +51,9 @@ google提交入口：[https://www.google.com/webmasters/tools/submit-url?hl=zh-C
 ## 参考资料
 > https://blog.csdn.net/csdn_lijun/article/details/118959082
 > https://blog.takagisan.top/2022/01daa7ea61.html
+
+---
+
+> 作者: Kingpo  
+> URL: https://zhjin.eu.org/posts/202209/%E6%8A%80%E6%9C%AF%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%E6%8F%90%E4%BA%A4%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E6%94%B6%E5%BD%95/  
+

@@ -28,3 +28,9 @@
 **解决方法：**  
 1)通过右键先导出csv，再另存为excel
 2)导出前去除字段里的引号（会影响字段值），引号替换为空，如：`'书名' =  Replace(Title,'"','')`
+
+---
+
+> 作者:   
+> URL: https://zhjin.eu.org/posts/202203/%E6%8A%80%E6%9C%AFsql%E5%A4%8D%E5%88%B6%E5%AF%BC%E5%87%BA%E6%95%B0%E6%8D%AE%E5%88%B0excel%E8%A1%8C%E6%95%B0%E7%BC%BA%E5%A4%B1%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/  
+

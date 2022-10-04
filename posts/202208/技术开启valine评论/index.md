@@ -147,3 +147,9 @@ valine无后端，那么评论的数据在哪里管理呢。
 
 ----------
 我的博客即将同步至腾讯云开发者社区，邀请大家一同入驻：(https://cloud.tencent.com/developer/support-plan?invite_code=2rznedmkkuww8)
+
+---
+
+> 作者: Kingpo  
+> URL: https://zhjin.eu.org/posts/202208/%E6%8A%80%E6%9C%AF%E5%BC%80%E5%90%AFvaline%E8%AF%84%E8%AE%BA/  
+

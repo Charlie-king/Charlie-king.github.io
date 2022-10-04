@@ -40,3 +40,9 @@ pdf文件用**chrome，Firefox**浏览器打开，打印，另存为新pdf，会
 其他浏览器自行测试。
 ![](https://s3.bmp.ovh/imgs/2022/09/06/920aa889bfc9d590.webp " ")
 
+
+---
+
+> 作者: Kingpo  
+> URL: https://zhjin.eu.org/posts/202209/%E6%8A%80%E6%9C%AFwordppt%E5%88%A0%E9%99%A4%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF%E7%9A%84%E6%96%B9%E6%B3%95/  
+

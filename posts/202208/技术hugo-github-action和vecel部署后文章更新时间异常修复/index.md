@@ -215,3 +215,9 @@ jobs:
 
 
 
+
+---
+
+> 作者: Kingpo  
+> URL: https://zhjin.eu.org/posts/202208/%E6%8A%80%E6%9C%AFhugo-github-action%E5%92%8Cvecel%E9%83%A8%E7%BD%B2%E5%90%8E%E6%96%87%E7%AB%A0%E6%9B%B4%E6%96%B0%E6%97%B6%E9%97%B4%E5%BC%82%E5%B8%B8%E4%BF%AE%E5%A4%8D/  
+

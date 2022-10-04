@@ -30,3 +30,9 @@
 ---
 
 {{< music server="netease" type="song" id="509720124" >}}
+
+---
+
+> 作者: Kingpo  
+> URL: https://zhjin.eu.org/guestbook/  
+

@@ -51,3 +51,9 @@ Gravatar是Globally Recognized Avatar的缩写，是gravatar.com推出的一项�
 > Gravatar头像 镜像地址大全 https://zhuanlan.zhihu.com/p/115248957
 >
 > 全球通用头像使用教程 http://www.ceniv.com/gravatar.html
+
+---
+
+> 作者: Kingpo  
+> URL: https://zhjin.eu.org/posts/202208/%E6%8A%80%E6%9C%AFgravatar%E5%A4%B4%E5%83%8F%E9%85%8D%E7%BD%AE%E5%92%8C%E9%95%9C%E5%83%8F%E5%9C%B0%E5%9D%80%E6%90%9C%E9%9B%86/  
+

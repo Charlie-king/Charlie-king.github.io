@@ -82,3 +82,9 @@ ping自己的github pages域名`xxx.github.io`，可查看它的ip，当前githu
 > github docs https://docs.github.com/cn/pages/getting-started-with-github-pages/about-github-pages   
 > Cloudflare https://zh.wikipedia.org/wiki/Cloudflare
 
+
+---
+
+> 作者: Kingpo  
+> URL: https://zhjin.eu.org/posts/202209/%E6%8A%80%E6%9C%AFgithub-pages%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D/  
+
