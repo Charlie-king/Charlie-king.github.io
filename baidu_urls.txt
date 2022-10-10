@@ -1,4 +1,5 @@
-https://zhjin.eu.org/2022-10-08-js/
+https://zhjin.eu.org/2022-10-09-hiking/
+https://zhjin.eu.org/2022-10-08-js-date-add/
 https://zhjin.eu.org/2022-10-05-take-statcount-for-site-statistics/
 https://zhjin.eu.org/2022-10-05-shell-read-config/
 https://zhjin.eu.org/2022-10-04-added-reward-function/
