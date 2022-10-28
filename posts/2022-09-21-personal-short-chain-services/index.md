@@ -522,5 +522,5 @@ addEventListener("fetch", async event => {
 ---
 
 > 作者: Kingpo  
-> URL: https://zhjin.eu.org/posts/2022-09-21-personal-short-chain-services/  
+> URL: https://ttzz.eu.org/posts/2022-09-21-personal-short-chain-services/  
 

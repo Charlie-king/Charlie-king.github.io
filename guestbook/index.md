@@ -34,5 +34,5 @@
 ---
 
 > 作者: Kingpo  
-> URL: https://zhjin.eu.org/guestbook/  
+> URL: https://ttzz.eu.org/guestbook/  
 

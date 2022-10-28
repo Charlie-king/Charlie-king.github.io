@@ -219,5 +219,5 @@ jobs:
 ---
 
 > 作者: Kingpo  
-> URL: https://zhjin.eu.org/posts/2022-08-14-fixed-git-update-time-exception/  
+> URL: https://ttzz.eu.org/posts/2022-08-14-fixed-git-update-time-exception/  
 

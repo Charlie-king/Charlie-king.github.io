@@ -164,5 +164,5 @@ caption="黄麻村小学墙"
 ---
 
 > 作者: Kingpo  
-> URL: https://zhjin.eu.org/posts/2022-10-09-hiking/  
+> URL: https://ttzz.eu.org/posts/2022-10-09-hiking/  
 

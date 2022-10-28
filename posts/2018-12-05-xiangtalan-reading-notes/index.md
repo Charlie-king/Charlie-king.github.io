@@ -73,5 +73,5 @@
 ---
 
 > 作者: Kingpo  
-> URL: https://zhjin.eu.org/posts/2018-12-05-xiangtalan-reading-notes/  
+> URL: https://ttzz.eu.org/posts/2018-12-05-xiangtalan-reading-notes/  
 

@@ -183,5 +183,5 @@ hugo server
 ---
 
 > 作者: Kingpo  
-> URL: https://zhjin.eu.org/posts/2022-07-15-hugo-blog-build/  
+> URL: https://ttzz.eu.org/posts/2022-07-15-hugo-blog-build/  
 

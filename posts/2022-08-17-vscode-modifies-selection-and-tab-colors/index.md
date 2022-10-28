@@ -40,5 +40,5 @@
 ---
 
 > 作者: Kingpo  
-> URL: https://zhjin.eu.org/posts/2022-08-17-vscode-modifies-selection-and-tab-colors/  
+> URL: https://ttzz.eu.org/posts/2022-08-17-vscode-modifies-selection-and-tab-colors/  
 

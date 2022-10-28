@@ -55,5 +55,5 @@ Gravatar是Globally Recognized Avatar的缩写，是gravatar.com推出的一项�
 ---
 
 > 作者: Kingpo  
-> URL: https://zhjin.eu.org/posts/2022-08-22-gravatar/  
+> URL: https://ttzz.eu.org/posts/2022-08-22-gravatar/  
 

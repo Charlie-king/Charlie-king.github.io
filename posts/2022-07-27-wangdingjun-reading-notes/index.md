@@ -34,5 +34,5 @@
 ---
 
 > 作者:   
-> URL: https://zhjin.eu.org/posts/2022-07-27-wangdingjun-reading-notes/  
+> URL: https://ttzz.eu.org/posts/2022-07-27-wangdingjun-reading-notes/  
 

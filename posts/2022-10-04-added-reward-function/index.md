@@ -287,5 +287,5 @@ article .post-reward .qr-code .image {
 ---
 
 > 作者: Kingpo  
-> URL: https://zhjin.eu.org/posts/2022-10-04-added-reward-function/  
+> URL: https://ttzz.eu.org/posts/2022-10-04-added-reward-function/  
 

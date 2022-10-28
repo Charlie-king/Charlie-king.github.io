@@ -55,5 +55,5 @@ google提交入口：[https://www.google.com/webmasters/tools/submit-url?hl=zh-C
 ---
 
 > 作者: Kingpo  
-> URL: https://zhjin.eu.org/posts/2022-09-16-submit-to-search-engine/  
+> URL: https://ttzz.eu.org/posts/2022-09-16-submit-to-search-engine/  
 

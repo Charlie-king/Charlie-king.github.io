@@ -16,5 +16,5 @@
 ---
 
 > 作者: Kingpo  
-> URL: https://zhjin.eu.org/posts/2022-09-06-kindle-networking-exception/  
+> URL: https://ttzz.eu.org/posts/2022-09-06-kindle-networking-exception/  
 

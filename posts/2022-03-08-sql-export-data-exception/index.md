@@ -32,5 +32,5 @@
 ---
 
 > 作者:   
-> URL: https://zhjin.eu.org/posts/2022-03-08-sql-export-data-exception/  
+> URL: https://ttzz.eu.org/posts/2022-03-08-sql-export-data-exception/  
 

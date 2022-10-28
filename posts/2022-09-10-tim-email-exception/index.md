@@ -36,5 +36,5 @@ QQ邮箱登录，默认是和QQ登录密码相同，开启授权码，需要先�
 ---
 
 > 作者: Kingpo  
-> URL: https://zhjin.eu.org/posts/2022-09-10-tim-email-exception/  
+> URL: https://ttzz.eu.org/posts/2022-09-10-tim-email-exception/  
 

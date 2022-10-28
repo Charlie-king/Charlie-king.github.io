@@ -25,5 +25,5 @@ Next
 ---
 
 > 作者: Kingpo  
-> URL: https://zhjin.eu.org/posts/2021-03-29-word-auto-sequence-number/  
+> URL: https://ttzz.eu.org/posts/2021-03-29-word-auto-sequence-number/  
 

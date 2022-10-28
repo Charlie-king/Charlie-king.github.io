@@ -151,5 +151,5 @@ valine无后端，那么评论的数据在哪里管理呢。
 ---
 
 > 作者: Kingpo  
-> URL: https://zhjin.eu.org/posts/2022-08-22-opens-comment-system/  
+> URL: https://ttzz.eu.org/posts/2022-08-22-opens-comment-system/  
 

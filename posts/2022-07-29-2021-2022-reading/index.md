@@ -103,5 +103,5 @@
 ---
 
 > 作者: Kingpo  
-> URL: https://zhjin.eu.org/posts/2022-07-29-2021-2022-reading/  
+> URL: https://ttzz.eu.org/posts/2022-07-29-2021-2022-reading/  
 

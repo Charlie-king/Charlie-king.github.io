@@ -93,5 +93,5 @@ github官方的建议是采用添加CNAME记录，这样github.io的ip变化后�
 ---
 
 > 作者: Kingpo  
-> URL: https://zhjin.eu.org/posts/2022-09-28-github-pages-custom-domain-name/  
+> URL: https://ttzz.eu.org/posts/2022-09-28-github-pages-custom-domain-name/  
 

@@ -85,5 +85,5 @@ git push
 ---
 
 > 作者: Kingpo  
-> URL: https://zhjin.eu.org/posts/2022-10-05-shell-read-config/  
+> URL: https://ttzz.eu.org/posts/2022-10-05-shell-read-config/  
 

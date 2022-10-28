@@ -34,5 +34,5 @@ ES2017 引入了字符串补全长度的功能。如果某个字符串不够指�
 ---
 
 > 作者: Kingpo  
-> URL: https://zhjin.eu.org/posts/2022-10-08-js-date-add/  
+> URL: https://ttzz.eu.org/posts/2022-10-08-js-date-add/  
 

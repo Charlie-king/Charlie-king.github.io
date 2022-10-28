@@ -26,5 +26,5 @@
 ---
 
 > 作者: Kingpo  
-> URL: https://zhjin.eu.org/friends/  
+> URL: https://ttzz.eu.org/friends/  
 

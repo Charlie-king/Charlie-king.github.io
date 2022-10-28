@@ -36,5 +36,5 @@
 ---
 
 > 作者: Kingpo  
-> URL: https://zhjin.eu.org/tool/  
+> URL: https://ttzz.eu.org/tool/  
 
