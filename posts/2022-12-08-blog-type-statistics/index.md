@@ -160,5 +160,5 @@ https://ghost.org/
 ---
 
 > 作者: Kingpo  
-> URL: https://ttzz.eu.org/posts/2022-12-08-blog/  
+> URL: https://ttzz.eu.org/posts/2022-12-08-blog-type-statistics/  
 
