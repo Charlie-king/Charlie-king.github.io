@@ -9,11 +9,17 @@
 ## 折腾过程
 
 ### vmware安装ubuntu
+
 ### 终端工具
+
 ### docker
+
 ### portainer
+
 ### 青龙面板
+
 ### ddns-go
+
 ### nginx proxy manager 
 
 Nginx Proxy Manager (NPM) 默认监听80和443端口，但如果你想修改为其他端口，如8000和9000，你需要更改NPM的配置。请按照以下步骤操作：
@@ -107,11 +113,22 @@ Nginx Proxy Manager (NPM) 默认监听80和443端口，但如果你想修改为�
 
 
 ### cloudflare tunnel
+
+
 ### 光猫和路由器
+
+
 桥接/开启IPV6
+
 ### alist
+
+
 ### 导航站homepage/tools
+
+
 ### zerorier和tailscale
+
+
 ### vaultwarden
 
 
