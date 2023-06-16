@@ -1,6 +1,7 @@
 https://ttzz.eu.org/posts/2023-06-05-remark/
 https://ttzz.eu.org/posts/2023-05-31-linux-ubuntu-setting/
 https://ttzz.eu.org/posts/2023-05-29-linux-vmware-ubuntu/
+https://ttzz.eu.org/posts/2023-05-26-nginx-http-redirect-https/
 https://ttzz.eu.org/posts/2023-05-22-home-server/
 https://ttzz.eu.org/posts/2023-05-10-view-broadband-account-password/
 https://ttzz.eu.org/posts/2023-05-07-windows-rdp-ubuntu/
