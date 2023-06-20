@@ -29,5 +29,5 @@
 ---
 
 > 作者: Kingpo  
-> URL: https://ttzz.eu.org/friends/  
+> URL: https://hugo.111520.xyz/friends/  
 

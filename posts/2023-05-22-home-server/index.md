@@ -214,5 +214,5 @@ https://zhuanlan.zhihu.com/p/595775684
 ---
 
 > 作者: Kingpo  
-> URL: https://ttzz.eu.org/posts/2023-05-22-home-server/  
+> URL: https://hugo.111520.xyz/posts/2023-05-22-home-server/  
 

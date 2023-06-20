@@ -150,5 +150,5 @@ zoho申请过程和前面写的流程一致。免费版容量5G，不大。
 ---
 
 > 作者: Kingpo  
-> URL: https://ttzz.eu.org/posts/2023-04-20-enterprise-email-and-email-management/  
+> URL: https://hugo.111520.xyz/posts/2023-04-20-enterprise-email-and-email-management/  
 

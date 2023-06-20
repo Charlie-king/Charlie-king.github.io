@@ -72,5 +72,5 @@ vercel.app域名从2022.8.21起国内已被墙，配置的独立域名不受影�
 ---
 
 > 作者: Kingpo  
-> URL: https://ttzz.eu.org/about/  
+> URL: https://hugo.111520.xyz/about/  
 

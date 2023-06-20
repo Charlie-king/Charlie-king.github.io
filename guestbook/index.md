@@ -34,5 +34,5 @@
 ---
 
 > 作者: Kingpo  
-> URL: https://ttzz.eu.org/guestbook/  
+> URL: https://hugo.111520.xyz/guestbook/  
 

@@ -435,5 +435,5 @@ Oh，my god，这么多年来可能我我学的是假英语。
 ---
 
 > 作者:   
-> URL: https://ttzz.eu.org/posts/2017-05-04-bikes-college-time/  
+> URL: https://hugo.111520.xyz/posts/2017-05-04-bikes-college-time/  
 

@@ -44,5 +44,5 @@ pdf文件用**chrome，Firefox**浏览器打开，打印，另存为新pdf，会
 ---
 
 > 作者: Kingpo  
-> URL: https://ttzz.eu.org/posts/2022-09-06-wordpptpdf-removes-document-personal-information/  
+> URL: https://hugo.111520.xyz/posts/2022-09-06-wordpptpdf-removes-document-personal-information/  
 

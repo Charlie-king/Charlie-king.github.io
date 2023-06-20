@@ -223,5 +223,5 @@ Authy身份认证功能：
 ---
 
 > 作者: Kingpo  
-> URL: https://ttzz.eu.org/posts/2023-04-26-password-management-and-2fa/  
+> URL: https://hugo.111520.xyz/posts/2023-04-26-password-management-and-2fa/  
 

@@ -22,5 +22,5 @@ vscode功能非常强大，是我目前接触到功能最强大编辑器，丰�
 ---
 
 > 作者: Kingpo  
-> URL: https://ttzz.eu.org/posts/2022-12-10-vscode-shortcut-key/  
+> URL: https://hugo.111520.xyz/posts/2022-12-10-vscode-shortcut-key/  
 

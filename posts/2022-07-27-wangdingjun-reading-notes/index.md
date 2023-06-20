@@ -5,5 +5,5 @@
 ---
 
 > 作者:   
-> URL: https://ttzz.eu.org/posts/2022-07-27-wangdingjun-reading-notes/  
+> URL: https://hugo.111520.xyz/posts/2022-07-27-wangdingjun-reading-notes/  
 

@@ -42,5 +42,5 @@
 ---
 
 > 作者: Kingpo  
-> URL: https://ttzz.eu.org/posts/2023-05-10-view-broadband-account-password/  
+> URL: https://hugo.111520.xyz/posts/2023-05-10-view-broadband-account-password/  
 

@@ -50,5 +50,5 @@ Ubuntu安装时默认创建的是普通账户，所有账户位于home目录下�
 ---
 
 > 作者: Kingpo  
-> URL: https://ttzz.eu.org/posts/2023-05-10-ubuntu-su/  
+> URL: https://hugo.111520.xyz/posts/2023-05-10-ubuntu-su/  
 

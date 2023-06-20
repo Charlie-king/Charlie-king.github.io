@@ -36,5 +36,5 @@
 ---
 
 > 作者: Kingpo  
-> URL: https://ttzz.eu.org/tool/  
+> URL: https://hugo.111520.xyz/tool/  
 

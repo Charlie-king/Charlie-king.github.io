@@ -103,5 +103,5 @@ statcounter管理端还有许多功能，页面访问统计显示你可以设置
 ---
 
 > 作者: Kingpo  
-> URL: https://ttzz.eu.org/posts/2022-10-05-take-statcount-for-site-statistics/  
+> URL: https://hugo.111520.xyz/posts/2022-10-05-take-statcount-for-site-statistics/  
 

@@ -69,5 +69,5 @@
 ---
 
 > 作者: Kingpo  
-> URL: https://ttzz.eu.org/posts/2023-01-03-new-year/  
+> URL: https://hugo.111520.xyz/posts/2023-01-03-new-year/  
 

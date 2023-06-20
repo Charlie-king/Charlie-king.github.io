@@ -330,5 +330,5 @@
 ---
 
 > 作者: Kingpo  
-> URL: https://ttzz.eu.org/posts/2019-02-11-village-history/  
+> URL: https://hugo.111520.xyz/posts/2019-02-11-village-history/  
 

@@ -202,5 +202,5 @@ async function device_status(user_agent_info) {
 ---
 
 > 作者: Kingpo  
-> URL: https://ttzz.eu.org/posts/2022-10-18-build-zlibrary-mirror/  
+> URL: https://hugo.111520.xyz/posts/2022-10-18-build-zlibrary-mirror/  
 

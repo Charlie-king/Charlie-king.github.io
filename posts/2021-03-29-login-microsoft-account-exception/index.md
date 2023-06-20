@@ -19,5 +19,5 @@
 ---
 
 > 作者: Kingpo  
-> URL: https://ttzz.eu.org/posts/2021-03-29-login-microsoft-account-exception/  
+> URL: https://hugo.111520.xyz/posts/2021-03-29-login-microsoft-account-exception/  
 

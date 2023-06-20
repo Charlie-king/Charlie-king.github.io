@@ -28,5 +28,5 @@ word中有格式刷功能，标题样式，文字大小和样式，图片样式�
 ---
 
 > 作者: Kingpo  
-> URL: https://ttzz.eu.org/posts/2022-11-18-word-pic-format-painter/  
+> URL: https://hugo.111520.xyz/posts/2022-11-18-word-pic-format-painter/  
 

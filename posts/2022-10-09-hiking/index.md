@@ -164,5 +164,5 @@ caption="黄麻村小学墙"
 ---
 
 > 作者: Kingpo  
-> URL: https://ttzz.eu.org/posts/2022-10-09-hiking/  
+> URL: https://hugo.111520.xyz/posts/2022-10-09-hiking/  
 

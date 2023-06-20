@@ -287,5 +287,5 @@ article .post-reward .qr-code .image {
 ---
 
 > 作者: Kingpo  
-> URL: https://ttzz.eu.org/posts/2022-10-04-added-reward-function/  
+> URL: https://hugo.111520.xyz/posts/2022-10-04-added-reward-function/  
 

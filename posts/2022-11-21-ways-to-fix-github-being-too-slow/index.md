@@ -61,5 +61,5 @@ Fetch GitHub Hosts 使用很简单，支持全平台，支持客户端和服务�
 ---
 
 > 作者: Kingpo  
-> URL: https://ttzz.eu.org/posts/2022-11-21-ways-to-fix-github-being-too-slow/  
+> URL: https://hugo.111520.xyz/posts/2022-11-21-ways-to-fix-github-being-too-slow/  
 

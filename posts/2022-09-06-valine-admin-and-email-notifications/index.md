@@ -198,5 +198,5 @@ Value: 你的web域名
 ---
 
 > 作者: Kingpo  
-> URL: https://ttzz.eu.org/posts/2022-09-06-valine-admin-and-email-notifications/  
+> URL: https://hugo.111520.xyz/posts/2022-09-06-valine-admin-and-email-notifications/  
 

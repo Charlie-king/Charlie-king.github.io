@@ -53,5 +53,5 @@
 ---
 
 > 作者: Kingpo  
-> URL: https://ttzz.eu.org/posts/2022-12-26-after-covid-19-was-released/  
+> URL: https://hugo.111520.xyz/posts/2022-12-26-after-covid-19-was-released/  
 

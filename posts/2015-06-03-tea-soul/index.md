@@ -28,5 +28,5 @@
 ---
 
 > 作者:   
-> URL: https://ttzz.eu.org/posts/2015-06-03-tea-soul/  
+> URL: https://hugo.111520.xyz/posts/2015-06-03-tea-soul/  
 

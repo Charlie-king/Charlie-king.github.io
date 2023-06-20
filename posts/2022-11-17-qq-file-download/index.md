@@ -16,5 +16,5 @@ qq群文件正常有10G空间可用，大文件需要管理员手动保存为永
 ---
 
 > 作者: Kingpo  
-> URL: https://ttzz.eu.org/posts/2022-11-17-qq-file-download/  
+> URL: https://hugo.111520.xyz/posts/2022-11-17-qq-file-download/  
 

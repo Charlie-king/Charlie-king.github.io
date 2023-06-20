@@ -97,5 +97,5 @@ module.exports = async function (context, req) {
 ---
 
 > 作者: Kingpo  
-> URL: https://ttzz.eu.org/posts/2022-09-11-hugo-obisidian-vscode/  
+> URL: https://hugo.111520.xyz/posts/2022-09-11-hugo-obisidian-vscode/  
 

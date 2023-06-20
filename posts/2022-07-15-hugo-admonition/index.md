@@ -162,5 +162,5 @@ hugo的LoveIt，FixIt主题都集成了admonition shorcode功能，可以比较�
 ---
 
 > 作者: Kingpo  
-> URL: https://ttzz.eu.org/posts/2022-07-15-hugo-admonition/  
+> URL: https://hugo.111520.xyz/posts/2022-07-15-hugo-admonition/  
 
