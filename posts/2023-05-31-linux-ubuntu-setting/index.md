@@ -216,6 +216,12 @@ docker run -d \
 Docker version 18.06.1-ce, build e68fc7a
 ```
 
+gitee国内版一键安装，可选国内源及官方源，完整安装docker所有功能
+```
+bash <(curl -sSL https://gitee.com/SuperManito/LinuxMirrors/raw/main/DockerInstallation.sh)`  
+
+```
+
 ### Ubuntu安装dokcer
 
 CE支持`x86_64, armhf, s390x (IBM Z), and ppc64le (IBM Power)`架构的Ubuntu

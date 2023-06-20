@@ -1,8 +1,11 @@
+https://ttzz.eu.org/posts/2023-06-19-qinglong-dependency/
+https://ttzz.eu.org/posts/2023-06-15-vmware-auto-start/
 https://ttzz.eu.org/posts/2023-06-05-remark/
 https://ttzz.eu.org/posts/2023-05-31-linux-ubuntu-setting/
 https://ttzz.eu.org/posts/2023-05-29-linux-vmware-ubuntu/
 https://ttzz.eu.org/posts/2023-05-26-nginx-http-redirect-https/
 https://ttzz.eu.org/posts/2023-05-22-home-server/
+https://ttzz.eu.org/posts/2023-05-10-ubuntu-su/
 https://ttzz.eu.org/posts/2023-05-10-view-broadband-account-password/
 https://ttzz.eu.org/posts/2023-05-07-windows-rdp-ubuntu/
 https://ttzz.eu.org/posts/2023-04-26-password-management-and-2fa/
