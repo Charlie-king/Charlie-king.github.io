@@ -5,5 +5,5 @@
 ---
 
 > 作者: Kingpo  
-> URL: https://hugo.111520.xyz/posts/2023-06-05-remark/  
+> URL: https://hugo.111520.xyz/posts/2023-06-05-riji/  
 
