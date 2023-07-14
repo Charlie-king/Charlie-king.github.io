@@ -449,6 +449,29 @@ https://github.com/mrabit/aliyundriveDailyCheck
 
 github：https://github.com/jeessy2/ddns-go
 
+## 15. Alist
+
+docker-compose安装：
+这里
+```yaml
+
+version: '3.3'
+services:
+    alist:
+        restart: always
+        volumes:
+            - '/home/char/compose/alist:/opt/alist/data'
+        ports:
+            - '5244:5244'
+        environment:
+            - PUID=0
+            - PGID=0
+            - UMASK=022
+        container_name: alist
+        image: 'xhofe/alist:main'
+```
+
+
 ---
 
 > 作者: Kingpo  
