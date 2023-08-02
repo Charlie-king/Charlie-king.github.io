@@ -456,49 +456,49 @@
 </span></span></span><span class=line><span class=cl><span class=c1></span>
 </span></span><span class=line><span class=cl><span class=kr>const</span> <span class=nx>github_repo</span> <span class=o>=</span> <span class=k>typeof</span><span class=p>(</span><span class=nx>GITHUB_REPO</span><span class=p>)</span><span class=o>!=</span><span class=s2>&#34;undefined&#34;</span> <span class=o>?</span> <span class=nx>GITHUB_REPO</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=o>:</span> <span class=s1>&#39;charlie-king/Url-Shorten-Worker&#39;</span>
+</span></span><span class=line><span class=cl>    <span class=o>:</span> <span class=s1>&#39;charlie-king/Url-Shorten-Worker&#39;</span>
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=c1>// 项目版本，cdn会有缓存，所以有更新时需要指定版本，
 </span></span></span><span class=line><span class=cl><span class=c1></span>
 </span></span><span class=line><span class=cl><span class=kr>const</span> <span class=nx>github_version</span> <span class=o>=</span> <span class=k>typeof</span><span class=p>(</span><span class=nx>GITHUB_VERSION</span><span class=p>)</span><span class=o>!=</span><span class=s2>&#34;undefined&#34;</span> <span class=o>?</span> <span class=nx>GITHUB_VERSION</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=o>:</span> <span class=s1>&#39;@main&#39;</span>
+</span></span><span class=line><span class=cl>    <span class=o>:</span> <span class=s1>&#39;@main&#39;</span>
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=c1>// 密码，密码正确情况无视白名单和超时设置，且支持自定义短链接，
 </span></span></span><span class=line><span class=cl><span class=c1></span>
 </span></span><span class=line><span class=cl><span class=kr>const</span> <span class=nx>password</span> <span class=o>=</span> <span class=k>typeof</span><span class=p>(</span><span class=nx>PASSWORD</span><span class=p>)</span><span class=o>!=</span><span class=s2>&#34;undefined&#34;</span> <span class=o>?</span> <span class=nx>PASSWORD</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=o>:</span> <span class=s1>&#39;AoEiuV020 yes&#39;</span>
+</span></span><span class=line><span class=cl>    <span class=o>:</span> <span class=s1>&#39;AoEiuV020 yes&#39;</span>
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=c1>// 短链超时，单位毫秒，支持整数乘法，0表示不设置超时，
 </span></span></span><span class=line><span class=cl><span class=c1></span>
 </span></span><span class=line><span class=cl><span class=kr>const</span> <span class=nx>shorten_timeout</span> <span class=o>=</span> <span class=k>typeof</span><span class=p>(</span><span class=nx>SHORTEN_TIMEOUT</span><span class=p>)</span><span class=o>!=</span><span class=s2>&#34;undefined&#34;</span> <span class=o>?</span> <span class=nx>SHORTEN_TIMEOUT</span><span class=p>.</span><span class=nx>split</span><span class=p>(</span><span class=s2>&#34;*&#34;</span><span class=p>).</span><span class=nx>reduce</span><span class=p>((</span><span class=nx>a</span><span class=p>,</span><span class=nx>b</span><span class=p>)=&gt;</span><span class=nb>parseInt</span><span class=p>(</span><span class=nx>a</span><span class=p>)</span><span class=o>*</span><span class=nb>parseInt</span><span class=p>(</span><span class=nx>b</span><span class=p>),</span><span class=mi>1</span><span class=p>)</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=o>:</span> <span class=p>(</span><span class=mi>1000</span> <span class=o>*</span> <span class=mi>60</span> <span class=o>*</span> <span class=mi>10</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>    <span class=o>:</span> <span class=p>(</span><span class=mi>1000</span> <span class=o>*</span> <span class=mi>60</span> <span class=o>*</span> <span class=mi>10</span><span class=p>)</span>
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=c1>// 默认短链key的长度，遇到重复时会自动延长，
 </span></span></span><span class=line><span class=cl><span class=c1></span>
 </span></span><span class=line><span class=cl><span class=kr>const</span> <span class=nx>default_len</span> <span class=o>=</span> <span class=k>typeof</span><span class=p>(</span><span class=nx>DEFAULT_LEN</span><span class=p>)</span><span class=o>!=</span><span class=s2>&#34;undefined&#34;</span> <span class=o>?</span> <span class=nb>parseInt</span><span class=p>(</span><span class=nx>DEFAULT_LEN</span><span class=p>)</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=o>:</span> <span class=mi>6</span>
+</span></span><span class=line><span class=cl>    <span class=o>:</span> <span class=mi>6</span>
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=c1>// 为true开启演示，否则无密码且非白名单请求不受理，是则允许访客试用，超时后失效，
 </span></span></span><span class=line><span class=cl><span class=c1></span>
 </span></span><span class=line><span class=cl><span class=kr>const</span> <span class=nx>demo_mode</span> <span class=o>=</span> <span class=k>typeof</span><span class=p>(</span><span class=nx>DEMO_MODE</span><span class=p>)</span><span class=o>!=</span><span class=s2>&#34;undefined&#34;</span> <span class=o>?</span> <span class=nx>DEMO_MODE</span> <span class=o>===</span> <span class=s1>&#39;true&#39;</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=o>:</span> <span class=kc>true</span>
+</span></span><span class=line><span class=cl>    <span class=o>:</span> <span class=kc>true</span>
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=c1>// 为true自动删除超时的演示短链接记录，否则仅是标记过期，以便在后台查询历史记录，
 </span></span></span><span class=line><span class=cl><span class=c1></span>
 </span></span><span class=line><span class=cl><span class=kr>const</span> <span class=nx>remove_completely</span> <span class=o>=</span> <span class=k>typeof</span><span class=p>(</span><span class=nx>REMOVE_COMPLETELY</span><span class=p>)</span><span class=o>!=</span><span class=s2>&#34;undefined&#34;</span> <span class=o>?</span> <span class=nx>REMOVE_COMPLETELY</span> <span class=o>===</span> <span class=s1>&#39;true&#39;</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=o>:</span> <span class=kc>true</span>
+</span></span><span class=line><span class=cl>    <span class=o>:</span> <span class=kc>true</span>
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=c1>// 白名单中的域名无视超时，json数组格式，写顶级域名就可以，自动通过顶级域名和所有二级域名，
 </span></span></span><span class=line><span class=cl><span class=c1></span>
 </span></span><span class=line><span class=cl><span class=kr>const</span> <span class=nx>white_list</span> <span class=o>=</span> <span class=nx>JSON</span><span class=p>.</span><span class=nx>parse</span><span class=p>(</span><span class=k>typeof</span><span class=p>(</span><span class=nx>WHITE_LIST</span><span class=p>)</span><span class=o>!=</span><span class=s2>&#34;undefined&#34;</span> <span class=o>?</span> <span class=nx>WHITE_LIST</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=o>:</span> <span class=sb>`[
+</span></span><span class=line><span class=cl>    <span class=o>:</span> <span class=sb>`[
 </span></span></span><span class=line><span class=cl><span class=sb>
 </span></span></span><span class=line><span class=cl><span class=sb>&#34;aoeiuv020.com&#34;,
 </span></span></span><span class=line><span class=cl><span class=sb>
@@ -514,7 +514,7 @@
 </span></span></span><span class=line><span class=cl><span class=c1></span>
 </span></span><span class=line><span class=cl><span class=kr>const</span> <span class=nx>demo_notice</span> <span class=o>=</span> <span class=k>typeof</span><span class=p>(</span><span class=nx>DEMO_NOTICE</span><span class=p>)</span><span class=o>!=</span><span class=s2>&#34;undefined&#34;</span> <span class=o>?</span> <span class=nx>DEMO_NOTICE</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=o>:</span> <span class=sb>`注意：为防止示例服务被人滥用，故所有由demo网站生成的链接随时可能失效，如需长期使用请自行搭建。`</span>
+</span></span><span class=line><span class=cl>    <span class=o>:</span> <span class=sb>`注意：为防止示例服务被人滥用，故所有由demo网站生成的链接随时可能失效，如需长期使用请自行搭建。`</span>
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=c1>//console.log(`${github_repo}, ${github_version}, ${password}, ${shorten_timeout}, ${demo_mode}, ${white_list}, ${demo_notice}`)
 </span></span></span><span class=line><span class=cl><span class=c1></span>
@@ -533,45 +533,45 @@
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=kr>async</span> <span class=kd>function</span> <span class=nx>randomString</span><span class=p>(</span><span class=nx>len</span><span class=p>)</span> <span class=p>{</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err>　　</span><span class=kd>let</span> <span class=nx>$chars</span> <span class=o>=</span> <span class=s1>&#39;ABCDEFGHJKMNPQRSTWXYZabcdefhijkmnprstwxyz2345678&#39;</span><span class=p>;</span> <span class=err> </span> <span class=err> </span><span class=cm>/****默认去掉了容易混淆的字符oOLl,9gq,Vv,Uu,I1****/</span>
+</span></span><span class=line><span class=cl>  　　<span class=kd>let</span> <span class=nx>$chars</span> <span class=o>=</span> <span class=s1>&#39;ABCDEFGHJKMNPQRSTWXYZabcdefhijkmnprstwxyz2345678&#39;</span><span class=p>;</span>    <span class=cm>/****默认去掉了容易混淆的字符oOLl,9gq,Vv,Uu,I1****/</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err>　　</span><span class=kd>let</span> <span class=nx>maxPos</span> <span class=o>=</span> <span class=nx>$chars</span><span class=p>.</span><span class=nx>length</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>  　　<span class=kd>let</span> <span class=nx>maxPos</span> <span class=o>=</span> <span class=nx>$chars</span><span class=p>.</span><span class=nx>length</span><span class=p>;</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err>　　</span><span class=kd>let</span> <span class=nx>result</span> <span class=o>=</span> <span class=s1>&#39;&#39;</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>　　<span class=kd>let</span> <span class=nx>result</span> <span class=o>=</span> <span class=s1>&#39;&#39;</span><span class=p>;</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err>　　</span><span class=k>for</span> <span class=p>(</span><span class=nx>i</span> <span class=o>=</span> <span class=mi>0</span><span class=p>;</span> <span class=nx>i</span> <span class=o>&lt;</span> <span class=nx>len</span><span class=p>;</span> <span class=nx>i</span><span class=o>++</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>　　<span class=k>for</span> <span class=p>(</span><span class=nx>i</span> <span class=o>=</span> <span class=mi>0</span><span class=p>;</span> <span class=nx>i</span> <span class=o>&lt;</span> <span class=nx>len</span><span class=p>;</span> <span class=nx>i</span><span class=o>++</span><span class=p>)</span> <span class=p>{</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err>　　　　</span><span class=nx>result</span> <span class=o>+=</span> <span class=nx>$chars</span><span class=p>.</span><span class=nx>charAt</span><span class=p>(</span><span class=nb>Math</span><span class=p>.</span><span class=nx>floor</span><span class=p>(</span><span class=nb>Math</span><span class=p>.</span><span class=nx>random</span><span class=p>()</span> <span class=o>*</span> <span class=nx>maxPos</span><span class=p>));</span>
+</span></span><span class=line><span class=cl>　　　　<span class=nx>result</span> <span class=o>+=</span> <span class=nx>$chars</span><span class=p>.</span><span class=nx>charAt</span><span class=p>(</span><span class=nb>Math</span><span class=p>.</span><span class=nx>floor</span><span class=p>(</span><span class=nb>Math</span><span class=p>.</span><span class=nx>random</span><span class=p>()</span> <span class=o>*</span> <span class=nx>maxPos</span><span class=p>));</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err>　　</span><span class=p>}</span>
+</span></span><span class=line><span class=cl>　　<span class=p>}</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err>　　</span><span class=k>return</span> <span class=nx>result</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>　　<span class=k>return</span> <span class=nx>result</span><span class=p>;</span>
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=p>}</span>
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=kr>async</span> <span class=kd>function</span> <span class=nx>checkURL</span><span class=p>(</span><span class=nx>url</span><span class=p>){</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=kd>let</span> <span class=nx>str</span><span class=o>=</span><span class=nx>url</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=kd>let</span> <span class=nx>str</span><span class=o>=</span><span class=nx>url</span><span class=p>;</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=kd>let</span> <span class=nx>Expression</span><span class=o>=</span><span class=sr>/^http(s)?:\/\/(.*@)?([\w-]+\.)*[\w-]+([_\-.,~!*:#()\w\/?%&amp;=]*)?$/</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=kd>let</span> <span class=nx>Expression</span><span class=o>=</span><span class=sr>/^http(s)?:\/\/(.*@)?([\w-]+\.)*[\w-]+([_\-.,~!*:#()\w\/?%&amp;=]*)?$/</span><span class=p>;</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=kd>let</span> <span class=nx>objExp</span><span class=o>=</span><span class=k>new</span> <span class=nb>RegExp</span><span class=p>(</span><span class=nx>Expression</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>    <span class=kd>let</span> <span class=nx>objExp</span><span class=o>=</span><span class=k>new</span> <span class=nb>RegExp</span><span class=p>(</span><span class=nx>Expression</span><span class=p>);</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=k>if</span><span class=p>(</span><span class=nx>objExp</span><span class=p>.</span><span class=nx>test</span><span class=p>(</span><span class=nx>str</span><span class=p>)</span><span class=o>==</span><span class=kc>true</span><span class=p>){</span>
+</span></span><span class=line><span class=cl>    <span class=k>if</span><span class=p>(</span><span class=nx>objExp</span><span class=p>.</span><span class=nx>test</span><span class=p>(</span><span class=nx>str</span><span class=p>)</span><span class=o>==</span><span class=kc>true</span><span class=p>){</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=k>if</span> <span class=p>(</span><span class=nx>str</span><span class=p>[</span><span class=mi>0</span><span class=p>]</span> <span class=o>==</span> <span class=s1>&#39;h&#39;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>      <span class=k>if</span> <span class=p>(</span><span class=nx>str</span><span class=p>[</span><span class=mi>0</span><span class=p>]</span> <span class=o>==</span> <span class=s1>&#39;h&#39;</span><span class=p>)</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=k>return</span> <span class=kc>true</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>        <span class=k>return</span> <span class=kc>true</span><span class=p>;</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=k>else</span>
+</span></span><span class=line><span class=cl>      <span class=k>else</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=k>return</span> <span class=kc>false</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>        <span class=k>return</span> <span class=kc>false</span><span class=p>;</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=p>}</span><span class=k>else</span><span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span><span class=k>else</span><span class=p>{</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=k>return</span> <span class=kc>false</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>        <span class=k>return</span> <span class=kc>false</span><span class=p>;</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=p>}</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span>
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=p>}</span>
 </span></span><span class=line><span class=cl>
@@ -579,297 +579,297 @@
 </span></span></span><span class=line><span class=cl><span class=c1></span>
 </span></span><span class=line><span class=cl><span class=kr>async</span> <span class=kd>function</span> <span class=nx>checkWhite</span><span class=p>(</span><span class=nx>host</span><span class=p>){</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=k>return</span> <span class=nx>white_list</span><span class=p>.</span><span class=nx>some</span><span class=p>((</span><span class=nx>h</span><span class=p>)</span> <span class=p>=&gt;</span> <span class=nx>host</span> <span class=o>==</span> <span class=nx>h</span> <span class=o>||</span> <span class=nx>host</span><span class=p>.</span><span class=nx>endsWith</span><span class=p>(</span><span class=s1>&#39;.&#39;</span><span class=o>+</span><span class=nx>h</span><span class=p>))</span>
+</span></span><span class=line><span class=cl>    <span class=k>return</span> <span class=nx>white_list</span><span class=p>.</span><span class=nx>some</span><span class=p>((</span><span class=nx>h</span><span class=p>)</span> <span class=p>=&gt;</span> <span class=nx>host</span> <span class=o>==</span> <span class=nx>h</span> <span class=o>||</span> <span class=nx>host</span><span class=p>.</span><span class=nx>endsWith</span><span class=p>(</span><span class=s1>&#39;.&#39;</span><span class=o>+</span><span class=nx>h</span><span class=p>))</span>
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=p>}</span>
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=kr>async</span> <span class=kd>function</span> <span class=nx>md5</span><span class=p>(</span><span class=nx>message</span><span class=p>)</span> <span class=p>{</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=kr>const</span> <span class=nx>msgUint8</span> <span class=o>=</span> <span class=k>new</span> <span class=nx>TextEncoder</span><span class=p>().</span><span class=nx>encode</span><span class=p>(</span><span class=nx>message</span><span class=p>)</span> <span class=c1>// encode as (utf-8) Uint8Array
+</span></span><span class=line><span class=cl>  <span class=kr>const</span> <span class=nx>msgUint8</span> <span class=o>=</span> <span class=k>new</span> <span class=nx>TextEncoder</span><span class=p>().</span><span class=nx>encode</span><span class=p>(</span><span class=nx>message</span><span class=p>)</span> <span class=c1>// encode as (utf-8) Uint8Array
 </span></span></span><span class=line><span class=cl><span class=c1></span>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=kr>const</span> <span class=nx>hashBuffer</span> <span class=o>=</span> <span class=kr>await</span> <span class=nx>crypto</span><span class=p>.</span><span class=nx>subtle</span><span class=p>.</span><span class=nx>digest</span><span class=p>(</span><span class=s1>&#39;MD5&#39;</span><span class=p>,</span> <span class=nx>msgUint8</span><span class=p>)</span> <span class=c1>// hash the message
+</span></span><span class=line><span class=cl>  <span class=kr>const</span> <span class=nx>hashBuffer</span> <span class=o>=</span> <span class=kr>await</span> <span class=nx>crypto</span><span class=p>.</span><span class=nx>subtle</span><span class=p>.</span><span class=nx>digest</span><span class=p>(</span><span class=s1>&#39;MD5&#39;</span><span class=p>,</span> <span class=nx>msgUint8</span><span class=p>)</span> <span class=c1>// hash the message
 </span></span></span><span class=line><span class=cl><span class=c1></span>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=kr>const</span> <span class=nx>hashArray</span> <span class=o>=</span> <span class=nb>Array</span><span class=p>.</span><span class=nx>from</span><span class=p>(</span><span class=k>new</span> <span class=nx>Uint8Array</span><span class=p>(</span><span class=nx>hashBuffer</span><span class=p>))</span> <span class=c1>// convert buffer to byte array
+</span></span><span class=line><span class=cl>  <span class=kr>const</span> <span class=nx>hashArray</span> <span class=o>=</span> <span class=nb>Array</span><span class=p>.</span><span class=nx>from</span><span class=p>(</span><span class=k>new</span> <span class=nx>Uint8Array</span><span class=p>(</span><span class=nx>hashBuffer</span><span class=p>))</span> <span class=c1>// convert buffer to byte array
 </span></span></span><span class=line><span class=cl><span class=c1></span>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=kr>const</span> <span class=nx>hashHex</span> <span class=o>=</span> <span class=nx>hashArray</span><span class=p>.</span><span class=nx>map</span><span class=p>(</span><span class=nx>b</span> <span class=p>=&gt;</span> <span class=nx>b</span><span class=p>.</span><span class=nx>toString</span><span class=p>(</span><span class=mi>16</span><span class=p>).</span><span class=nx>padStart</span><span class=p>(</span><span class=mi>2</span><span class=p>,</span> <span class=s1>&#39;0&#39;</span><span class=p>)).</span><span class=nx>join</span><span class=p>(</span><span class=s1>&#39;&#39;</span><span class=p>)</span> <span class=c1>// convert bytes to hex string
+</span></span><span class=line><span class=cl>  <span class=kr>const</span> <span class=nx>hashHex</span> <span class=o>=</span> <span class=nx>hashArray</span><span class=p>.</span><span class=nx>map</span><span class=p>(</span><span class=nx>b</span> <span class=p>=&gt;</span> <span class=nx>b</span><span class=p>.</span><span class=nx>toString</span><span class=p>(</span><span class=mi>16</span><span class=p>).</span><span class=nx>padStart</span><span class=p>(</span><span class=mi>2</span><span class=p>,</span> <span class=s1>&#39;0&#39;</span><span class=p>)).</span><span class=nx>join</span><span class=p>(</span><span class=s1>&#39;&#39;</span><span class=p>)</span> <span class=c1>// convert bytes to hex string
 </span></span></span><span class=line><span class=cl><span class=c1></span>
 </span></span><span class=line><span class=cl>  
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=k>return</span> <span class=nx>hashHex</span>
+</span></span><span class=line><span class=cl>  <span class=k>return</span> <span class=nx>hashHex</span>
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=p>}</span>
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=kr>async</span> <span class=kd>function</span> <span class=nx>checkHash</span><span class=p>(</span><span class=nx>url</span><span class=p>,</span> <span class=nx>hash</span><span class=p>)</span> <span class=p>{</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=k>if</span> <span class=p>(</span><span class=o>!</span><span class=nx>hash</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=k>if</span> <span class=p>(</span><span class=o>!</span><span class=nx>hash</span><span class=p>)</span> <span class=p>{</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=k>return</span> <span class=kc>false</span>
+</span></span><span class=line><span class=cl>        <span class=k>return</span> <span class=kc>false</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=p>}</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=k>return</span> <span class=p>(</span><span class=kr>await</span> <span class=nx>md5</span><span class=p>(</span><span class=nx>url</span><span class=o>+</span><span class=nx>password</span><span class=p>))</span> <span class=o>==</span> <span class=nx>hash</span>
+</span></span><span class=line><span class=cl>    <span class=k>return</span> <span class=p>(</span><span class=kr>await</span> <span class=nx>md5</span><span class=p>(</span><span class=nx>url</span><span class=o>+</span><span class=nx>password</span><span class=p>))</span> <span class=o>==</span> <span class=nx>hash</span>
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=p>}</span>
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=kr>async</span> <span class=kd>function</span> <span class=nx>save_url</span><span class=p>(</span><span class=nx>url</span><span class=p>,</span> <span class=nx>key</span><span class=p>,</span> <span class=nx>admin</span><span class=p>,</span> <span class=nx>len</span><span class=p>)</span> <span class=p>{</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err>　　</span><span class=nx>len</span> <span class=o>=</span> <span class=nx>len</span> <span class=o>||</span> <span class=nx>default_len</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>　　<span class=nx>len</span> <span class=o>=</span> <span class=nx>len</span> <span class=o>||</span> <span class=nx>default_len</span><span class=p>;</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=c1>// 密码正确且指定了key的情况直接覆盖旧值，
+</span></span><span class=line><span class=cl>    <span class=c1>// 密码正确且指定了key的情况直接覆盖旧值，
 </span></span></span><span class=line><span class=cl><span class=c1></span>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=kr>const</span> <span class=nx>override</span> <span class=o>=</span> <span class=nx>admin</span> <span class=o>&amp;&amp;</span> <span class=nx>key</span>
+</span></span><span class=line><span class=cl>    <span class=kr>const</span> <span class=nx>override</span> <span class=o>=</span> <span class=nx>admin</span> <span class=o>&amp;&amp;</span> <span class=nx>key</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=k>if</span> <span class=p>(</span><span class=o>!</span><span class=nx>override</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=k>if</span> <span class=p>(</span><span class=o>!</span><span class=nx>override</span><span class=p>)</span> <span class=p>{</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=c1>// 密码不正确情况无视指定key,
+</span></span><span class=line><span class=cl>        <span class=c1>// 密码不正确情况无视指定key,
 </span></span></span><span class=line><span class=cl><span class=c1></span>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=nx>key</span> <span class=o>=</span> <span class=kr>await</span> <span class=nx>randomString</span><span class=p>(</span><span class=nx>len</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>        <span class=nx>key</span> <span class=o>=</span> <span class=kr>await</span> <span class=nx>randomString</span><span class=p>(</span><span class=nx>len</span><span class=p>)</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=p>}</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=kr>const</span> <span class=nx>is_exists</span> <span class=o>=</span> <span class=kr>await</span> <span class=nx>load_url</span><span class=p>(</span><span class=nx>key</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>    <span class=kr>const</span> <span class=nx>is_exists</span> <span class=o>=</span> <span class=kr>await</span> <span class=nx>load_url</span><span class=p>(</span><span class=nx>key</span><span class=p>)</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=nx>console</span><span class=p>.</span><span class=nx>log</span><span class=p>(</span><span class=s2>&#34;key exists &#34;</span> <span class=o>+</span> <span class=nx>key</span> <span class=o>+</span> <span class=s2>&#34; &#34;</span> <span class=o>+</span> <span class=nx>is_exists</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>    <span class=nx>console</span><span class=p>.</span><span class=nx>log</span><span class=p>(</span><span class=s2>&#34;key exists &#34;</span> <span class=o>+</span> <span class=nx>key</span> <span class=o>+</span> <span class=s2>&#34; &#34;</span> <span class=o>+</span> <span class=nx>is_exists</span><span class=p>)</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=k>if</span> <span class=p>(</span><span class=nx>override</span> <span class=o>||</span> <span class=o>!</span><span class=nx>is_exists</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=k>if</span> <span class=p>(</span><span class=nx>override</span> <span class=o>||</span> <span class=o>!</span><span class=nx>is_exists</span><span class=p>)</span> <span class=p>{</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=kd>var</span> <span class=nx>mode</span> <span class=o>=</span> <span class=mi>3</span>
+</span></span><span class=line><span class=cl>        <span class=kd>var</span> <span class=nx>mode</span> <span class=o>=</span> <span class=mi>3</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=k>if</span> <span class=p>(</span><span class=nx>admin</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>        <span class=k>if</span> <span class=p>(</span><span class=nx>admin</span><span class=p>)</span> <span class=p>{</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=nx>mode</span> <span class=o>=</span> <span class=mi>0</span>
+</span></span><span class=line><span class=cl>            <span class=nx>mode</span> <span class=o>=</span> <span class=mi>0</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=p>}</span>
+</span></span><span class=line><span class=cl>        <span class=p>}</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=kd>let</span> <span class=nx>value</span> <span class=o>=</span> <span class=sb>`</span><span class=si>${</span><span class=nx>mode</span><span class=si>}</span><span class=sb>;</span><span class=si>${</span><span class=nb>Date</span><span class=p>.</span><span class=nx>now</span><span class=p>()</span><span class=si>}</span><span class=sb>;</span><span class=si>${</span><span class=nx>url</span><span class=si>}</span><span class=sb>`</span>
+</span></span><span class=line><span class=cl>        <span class=kd>let</span> <span class=nx>value</span> <span class=o>=</span> <span class=sb>`</span><span class=si>${</span><span class=nx>mode</span><span class=si>}</span><span class=sb>;</span><span class=si>${</span><span class=nb>Date</span><span class=p>.</span><span class=nx>now</span><span class=p>()</span><span class=si>}</span><span class=sb>;</span><span class=si>${</span><span class=nx>url</span><span class=si>}</span><span class=sb>`</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=k>if</span> <span class=p>(</span><span class=nx>remove_completely</span> <span class=o>&amp;&amp;</span> <span class=nx>mode</span> <span class=o>!=</span> <span class=mi>0</span> <span class=o>&amp;&amp;</span> <span class=o>!</span><span class=kr>await</span> <span class=nx>checkWhite</span><span class=p>(</span><span class=k>new</span> <span class=nx>URL</span><span class=p>(</span><span class=nx>url</span><span class=p>).</span><span class=nx>host</span><span class=p>))</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>        <span class=k>if</span> <span class=p>(</span><span class=nx>remove_completely</span> <span class=o>&amp;&amp;</span> <span class=nx>mode</span> <span class=o>!=</span> <span class=mi>0</span> <span class=o>&amp;&amp;</span> <span class=o>!</span><span class=kr>await</span> <span class=nx>checkWhite</span><span class=p>(</span><span class=k>new</span> <span class=nx>URL</span><span class=p>(</span><span class=nx>url</span><span class=p>).</span><span class=nx>host</span><span class=p>))</span> <span class=p>{</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=c1>// 利用expirationTtl实现过期记录自动删除，低于60秒会报错，
+</span></span><span class=line><span class=cl>          <span class=c1>// 利用expirationTtl实现过期记录自动删除，低于60秒会报错，
 </span></span></span><span class=line><span class=cl><span class=c1></span>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=kd>let</span> <span class=nx>ttl</span> <span class=o>=</span> <span class=nb>Math</span><span class=p>.</span><span class=nx>max</span><span class=p>(</span><span class=mi>60</span><span class=p>,</span> <span class=nx>shorten_timeout</span> <span class=o>/</span> <span class=mi>1000</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>          <span class=kd>let</span> <span class=nx>ttl</span> <span class=o>=</span> <span class=nb>Math</span><span class=p>.</span><span class=nx>max</span><span class=p>(</span><span class=mi>60</span><span class=p>,</span> <span class=nx>shorten_timeout</span> <span class=o>/</span> <span class=mi>1000</span><span class=p>)</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=nx>console</span><span class=p>.</span><span class=nx>log</span><span class=p>(</span><span class=s2>&#34;key auto remove: &#34;</span> <span class=o>+</span> <span class=nx>key</span> <span class=o>+</span> <span class=s2>&#34;, &#34;</span> <span class=o>+</span> <span class=nx>ttl</span> <span class=o>+</span> <span class=s2>&#34;s&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>          <span class=nx>console</span><span class=p>.</span><span class=nx>log</span><span class=p>(</span><span class=s2>&#34;key auto remove: &#34;</span> <span class=o>+</span> <span class=nx>key</span> <span class=o>+</span> <span class=s2>&#34;, &#34;</span> <span class=o>+</span> <span class=nx>ttl</span> <span class=o>+</span> <span class=s2>&#34;s&#34;</span><span class=p>)</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=k>return</span> <span class=kr>await</span> <span class=nx>LINKS</span><span class=p>.</span><span class=nx>put</span><span class=p>(</span><span class=nx>key</span><span class=p>,</span> <span class=nx>value</span><span class=p>,</span> <span class=p>{</span><span class=nx>expirationTtl</span><span class=o>:</span> <span class=nx>ttl</span><span class=p>}),</span><span class=nx>key</span>
+</span></span><span class=line><span class=cl>          <span class=k>return</span> <span class=kr>await</span> <span class=nx>LINKS</span><span class=p>.</span><span class=nx>put</span><span class=p>(</span><span class=nx>key</span><span class=p>,</span> <span class=nx>value</span><span class=p>,</span> <span class=p>{</span><span class=nx>expirationTtl</span><span class=o>:</span> <span class=nx>ttl</span><span class=p>}),</span><span class=nx>key</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=p>}</span> <span class=k>else</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>        <span class=p>}</span> <span class=k>else</span> <span class=p>{</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=k>return</span> <span class=kr>await</span> <span class=nx>LINKS</span><span class=p>.</span><span class=nx>put</span><span class=p>(</span><span class=nx>key</span><span class=p>,</span> <span class=nx>value</span><span class=p>),</span><span class=nx>key</span>
+</span></span><span class=line><span class=cl>          <span class=k>return</span> <span class=kr>await</span> <span class=nx>LINKS</span><span class=p>.</span><span class=nx>put</span><span class=p>(</span><span class=nx>key</span><span class=p>,</span> <span class=nx>value</span><span class=p>),</span><span class=nx>key</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=p>}</span>
+</span></span><span class=line><span class=cl>        <span class=p>}</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=p>}</span> <span class=k>else</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span> <span class=k>else</span> <span class=p>{</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=k>return</span> <span class=kr>await</span> <span class=nx>save_url</span><span class=p>(</span><span class=nx>url</span><span class=p>,</span> <span class=nx>key</span><span class=p>,</span> <span class=nx>admin</span><span class=p>,</span> <span class=nx>len</span> <span class=o>+</span> <span class=mi>1</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>        <span class=k>return</span> <span class=kr>await</span> <span class=nx>save_url</span><span class=p>(</span><span class=nx>url</span><span class=p>,</span> <span class=nx>key</span><span class=p>,</span> <span class=nx>admin</span><span class=p>,</span> <span class=nx>len</span> <span class=o>+</span> <span class=mi>1</span><span class=p>)</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=p>}</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span>
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=p>}</span>
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=kr>async</span> <span class=kd>function</span> <span class=nx>load_url</span><span class=p>(</span><span class=nx>key</span><span class=p>)</span> <span class=p>{</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=kr>const</span> <span class=nx>value</span> <span class=o>=</span> <span class=kr>await</span> <span class=nx>LINKS</span><span class=p>.</span><span class=nx>get</span><span class=p>(</span><span class=nx>key</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>    <span class=kr>const</span> <span class=nx>value</span> <span class=o>=</span> <span class=kr>await</span> <span class=nx>LINKS</span><span class=p>.</span><span class=nx>get</span><span class=p>(</span><span class=nx>key</span><span class=p>)</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=k>if</span> <span class=p>(</span><span class=o>!</span><span class=nx>value</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=k>if</span> <span class=p>(</span><span class=o>!</span><span class=nx>value</span><span class=p>)</span> <span class=p>{</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=k>return</span> <span class=kc>null</span>
+</span></span><span class=line><span class=cl>        <span class=k>return</span> <span class=kc>null</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=p>}</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=kr>const</span> <span class=nx>list</span> <span class=o>=</span> <span class=nx>value</span><span class=p>.</span><span class=nx>split</span><span class=p>(</span><span class=s1>&#39;;&#39;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>    <span class=kr>const</span> <span class=nx>list</span> <span class=o>=</span> <span class=nx>value</span><span class=p>.</span><span class=nx>split</span><span class=p>(</span><span class=s1>&#39;;&#39;</span><span class=p>)</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=nx>console</span><span class=p>.</span><span class=nx>log</span><span class=p>(</span><span class=s2>&#34;value split &#34;</span> <span class=o>+</span> <span class=nx>list</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>    <span class=nx>console</span><span class=p>.</span><span class=nx>log</span><span class=p>(</span><span class=s2>&#34;value split &#34;</span> <span class=o>+</span> <span class=nx>list</span><span class=p>)</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=kd>var</span> <span class=nx>url</span>
+</span></span><span class=line><span class=cl>    <span class=kd>var</span> <span class=nx>url</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=k>if</span> <span class=p>(</span><span class=nx>list</span><span class=p>.</span><span class=nx>length</span> <span class=o>==</span> <span class=mi>1</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=k>if</span> <span class=p>(</span><span class=nx>list</span><span class=p>.</span><span class=nx>length</span> <span class=o>==</span> <span class=mi>1</span><span class=p>)</span> <span class=p>{</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=c1>// 老数据暂且正常跳转，
+</span></span><span class=line><span class=cl>        <span class=c1>// 老数据暂且正常跳转，
 </span></span></span><span class=line><span class=cl><span class=c1></span>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=nx>url</span> <span class=o>=</span> <span class=nx>list</span><span class=p>[</span><span class=mi>0</span><span class=p>]</span>
+</span></span><span class=line><span class=cl>        <span class=nx>url</span> <span class=o>=</span> <span class=nx>list</span><span class=p>[</span><span class=mi>0</span><span class=p>]</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=p>}</span> <span class=k>else</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span> <span class=k>else</span> <span class=p>{</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=nx>url</span> <span class=o>=</span> <span class=nx>list</span><span class=p>[</span><span class=mi>2</span><span class=p>]</span>
+</span></span><span class=line><span class=cl>        <span class=nx>url</span> <span class=o>=</span> <span class=nx>list</span><span class=p>[</span><span class=mi>2</span><span class=p>]</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=kr>const</span> <span class=nx>mode</span> <span class=o>=</span> <span class=nb>parseInt</span><span class=p>(</span><span class=nx>list</span><span class=p>[</span><span class=mi>0</span><span class=p>])</span>
+</span></span><span class=line><span class=cl>        <span class=kr>const</span> <span class=nx>mode</span> <span class=o>=</span> <span class=nb>parseInt</span><span class=p>(</span><span class=nx>list</span><span class=p>[</span><span class=mi>0</span><span class=p>])</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=kr>const</span> <span class=nx>create_time</span> <span class=o>=</span> <span class=nb>parseInt</span><span class=p>(</span><span class=nx>list</span><span class=p>[</span><span class=mi>1</span><span class=p>])</span>
+</span></span><span class=line><span class=cl>        <span class=kr>const</span> <span class=nx>create_time</span> <span class=o>=</span> <span class=nb>parseInt</span><span class=p>(</span><span class=nx>list</span><span class=p>[</span><span class=mi>1</span><span class=p>])</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=k>if</span> <span class=p>(</span><span class=nx>mode</span> <span class=o>!=</span> <span class=mi>0</span> <span class=o>&amp;&amp;</span> <span class=nx>shorten_timeout</span> <span class=o>&gt;</span> <span class=mi>0</span>
+</span></span><span class=line><span class=cl>        <span class=k>if</span> <span class=p>(</span><span class=nx>mode</span> <span class=o>!=</span> <span class=mi>0</span> <span class=o>&amp;&amp;</span> <span class=nx>shorten_timeout</span> <span class=o>&gt;</span> <span class=mi>0</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=o>&amp;&amp;</span> <span class=nb>Date</span><span class=p>.</span><span class=nx>now</span><span class=p>()</span> <span class=o>-</span> <span class=nx>create_time</span> <span class=o>&gt;</span> <span class=nx>shorten_timeout</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>            <span class=o>&amp;&amp;</span> <span class=nb>Date</span><span class=p>.</span><span class=nx>now</span><span class=p>()</span> <span class=o>-</span> <span class=nx>create_time</span> <span class=o>&gt;</span> <span class=nx>shorten_timeout</span><span class=p>)</span> <span class=p>{</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=kr>const</span> <span class=nx>host</span> <span class=o>=</span> <span class=k>new</span> <span class=nx>URL</span><span class=p>(</span><span class=nx>url</span><span class=p>).</span><span class=nx>host</span>
+</span></span><span class=line><span class=cl>            <span class=kr>const</span> <span class=nx>host</span> <span class=o>=</span> <span class=k>new</span> <span class=nx>URL</span><span class=p>(</span><span class=nx>url</span><span class=p>).</span><span class=nx>host</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=k>if</span> <span class=p>(</span><span class=kr>await</span> <span class=nx>checkWhite</span><span class=p>(</span><span class=nx>host</span><span class=p>))</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>            <span class=k>if</span> <span class=p>(</span><span class=kr>await</span> <span class=nx>checkWhite</span><span class=p>(</span><span class=nx>host</span><span class=p>))</span> <span class=p>{</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=nx>console</span><span class=p>.</span><span class=nx>log</span><span class=p>(</span><span class=s1>&#39;white list&#39;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>                <span class=nx>console</span><span class=p>.</span><span class=nx>log</span><span class=p>(</span><span class=s1>&#39;white list&#39;</span><span class=p>)</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=p>}</span> <span class=k>else</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>            <span class=p>}</span> <span class=k>else</span> <span class=p>{</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=c1>// 超时和找不到做同样的处理，
+</span></span><span class=line><span class=cl>                <span class=c1>// 超时和找不到做同样的处理，
 </span></span></span><span class=line><span class=cl><span class=c1></span>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=nx>console</span><span class=p>.</span><span class=nx>log</span><span class=p>(</span><span class=s2>&#34;shorten timeout&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>                <span class=nx>console</span><span class=p>.</span><span class=nx>log</span><span class=p>(</span><span class=s2>&#34;shorten timeout&#34;</span><span class=p>)</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=k>return</span> <span class=kc>null</span>
+</span></span><span class=line><span class=cl>                <span class=k>return</span> <span class=kc>null</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=p>}</span>
+</span></span><span class=line><span class=cl>            <span class=p>}</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=p>}</span>
+</span></span><span class=line><span class=cl>        <span class=p>}</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=p>}</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=k>return</span> <span class=nx>url</span>
+</span></span><span class=line><span class=cl>    <span class=k>return</span> <span class=nx>url</span>
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=p>}</span>
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=kr>async</span> <span class=kd>function</span> <span class=nx>handleRequest</span><span class=p>(</span><span class=nx>request</span><span class=p>)</span> <span class=p>{</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=nx>console</span><span class=p>.</span><span class=nx>log</span><span class=p>(</span><span class=nx>request</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>  <span class=nx>console</span><span class=p>.</span><span class=nx>log</span><span class=p>(</span><span class=nx>request</span><span class=p>)</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=k>if</span> <span class=p>(</span><span class=nx>request</span><span class=p>.</span><span class=nx>method</span> <span class=o>===</span> <span class=s2>&#34;POST&#34;</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=k>if</span> <span class=p>(</span><span class=nx>request</span><span class=p>.</span><span class=nx>method</span> <span class=o>===</span> <span class=s2>&#34;POST&#34;</span><span class=p>)</span> <span class=p>{</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=kd>let</span> <span class=nx>req</span><span class=o>=</span><span class=kr>await</span> <span class=nx>request</span><span class=p>.</span><span class=nx>json</span><span class=p>()</span>
+</span></span><span class=line><span class=cl>    <span class=kd>let</span> <span class=nx>req</span><span class=o>=</span><span class=kr>await</span> <span class=nx>request</span><span class=p>.</span><span class=nx>json</span><span class=p>()</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=nx>console</span><span class=p>.</span><span class=nx>log</span><span class=p>(</span><span class=s2>&#34;url &#34;</span> <span class=o>+</span> <span class=nx>req</span><span class=p>[</span><span class=s2>&#34;url&#34;</span><span class=p>])</span>
+</span></span><span class=line><span class=cl>    <span class=nx>console</span><span class=p>.</span><span class=nx>log</span><span class=p>(</span><span class=s2>&#34;url &#34;</span> <span class=o>+</span> <span class=nx>req</span><span class=p>[</span><span class=s2>&#34;url&#34;</span><span class=p>])</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=kd>let</span> <span class=nx>admin</span> <span class=o>=</span> <span class=kr>await</span> <span class=nx>checkHash</span><span class=p>(</span><span class=nx>req</span><span class=p>[</span><span class=s2>&#34;url&#34;</span><span class=p>],</span> <span class=nx>req</span><span class=p>[</span><span class=s2>&#34;hash&#34;</span><span class=p>])</span>
+</span></span><span class=line><span class=cl>    <span class=kd>let</span> <span class=nx>admin</span> <span class=o>=</span> <span class=kr>await</span> <span class=nx>checkHash</span><span class=p>(</span><span class=nx>req</span><span class=p>[</span><span class=s2>&#34;url&#34;</span><span class=p>],</span> <span class=nx>req</span><span class=p>[</span><span class=s2>&#34;hash&#34;</span><span class=p>])</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=nx>console</span><span class=p>.</span><span class=nx>log</span><span class=p>(</span><span class=s2>&#34;admin &#34;</span> <span class=o>+</span> <span class=nx>admin</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>    <span class=nx>console</span><span class=p>.</span><span class=nx>log</span><span class=p>(</span><span class=s2>&#34;admin &#34;</span> <span class=o>+</span> <span class=nx>admin</span><span class=p>)</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=k>if</span><span class=p>(</span><span class=o>!</span><span class=kr>await</span> <span class=nx>checkURL</span><span class=p>(</span><span class=nx>req</span><span class=p>[</span><span class=s2>&#34;url&#34;</span><span class=p>])</span> <span class=o>||</span> <span class=p>(</span><span class=o>!</span><span class=nx>admin</span> <span class=o>&amp;&amp;</span> <span class=o>!</span><span class=nx>demo_mode</span> <span class=o>&amp;&amp;</span> <span class=o>!</span><span class=kr>await</span> <span class=nx>checkWhite</span><span class=p>(</span><span class=k>new</span> <span class=nx>URL</span><span class=p>(</span><span class=nx>req</span><span class=p>[</span><span class=s2>&#34;url&#34;</span><span class=p>]).</span><span class=nx>host</span><span class=p>))){</span>
+</span></span><span class=line><span class=cl>    <span class=k>if</span><span class=p>(</span><span class=o>!</span><span class=kr>await</span> <span class=nx>checkURL</span><span class=p>(</span><span class=nx>req</span><span class=p>[</span><span class=s2>&#34;url&#34;</span><span class=p>])</span> <span class=o>||</span> <span class=p>(</span><span class=o>!</span><span class=nx>admin</span> <span class=o>&amp;&amp;</span> <span class=o>!</span><span class=nx>demo_mode</span> <span class=o>&amp;&amp;</span> <span class=o>!</span><span class=kr>await</span> <span class=nx>checkWhite</span><span class=p>(</span><span class=k>new</span> <span class=nx>URL</span><span class=p>(</span><span class=nx>req</span><span class=p>[</span><span class=s2>&#34;url&#34;</span><span class=p>]).</span><span class=nx>host</span><span class=p>))){</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=c1>// 非演示模式下，非白名单地址当成地址不合法处理，
+</span></span><span class=line><span class=cl>    <span class=c1>// 非演示模式下，非白名单地址当成地址不合法处理，
 </span></span></span><span class=line><span class=cl><span class=c1></span>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=k>return</span> <span class=k>new</span> <span class=nx>Response</span><span class=p>(</span><span class=sb>`{&#34;status&#34;:500,&#34;key&#34;:&#34;: Error: Url illegal.&#34;}`</span><span class=p>,</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=k>return</span> <span class=k>new</span> <span class=nx>Response</span><span class=p>(</span><span class=sb>`{&#34;status&#34;:500,&#34;key&#34;:&#34;: Error: Url illegal.&#34;}`</span><span class=p>,</span> <span class=p>{</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=nx>headers</span><span class=o>:</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>      <span class=nx>headers</span><span class=o>:</span> <span class=p>{</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=s2>&#34;content-type&#34;</span><span class=o>:</span> <span class=s2>&#34;text/html;charset=UTF-8&#34;</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>      <span class=s2>&#34;content-type&#34;</span><span class=o>:</span> <span class=s2>&#34;text/html;charset=UTF-8&#34;</span><span class=p>,</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=s2>&#34;Access-Control-Allow-Origin&#34;</span><span class=o>:</span><span class=s2>&#34;*&#34;</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>      <span class=s2>&#34;Access-Control-Allow-Origin&#34;</span><span class=o>:</span><span class=s2>&#34;*&#34;</span><span class=p>,</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=s2>&#34;Access-Control-Allow-Methods&#34;</span><span class=o>:</span> <span class=s2>&#34;POST&#34;</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>      <span class=s2>&#34;Access-Control-Allow-Methods&#34;</span><span class=o>:</span> <span class=s2>&#34;POST&#34;</span><span class=p>,</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=p>},</span>
+</span></span><span class=line><span class=cl>      <span class=p>},</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=p>})}</span>
+</span></span><span class=line><span class=cl>    <span class=p>})}</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=kd>let</span> <span class=nx>stat</span><span class=p>,</span><span class=nx>random_key</span><span class=o>=</span><span class=kr>await</span> <span class=nx>save_url</span><span class=p>(</span><span class=nx>req</span><span class=p>[</span><span class=s2>&#34;url&#34;</span><span class=p>],</span> <span class=nx>req</span><span class=p>[</span><span class=s2>&#34;key&#34;</span><span class=p>],</span> <span class=nx>admin</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>    <span class=kd>let</span> <span class=nx>stat</span><span class=p>,</span><span class=nx>random_key</span><span class=o>=</span><span class=kr>await</span> <span class=nx>save_url</span><span class=p>(</span><span class=nx>req</span><span class=p>[</span><span class=s2>&#34;url&#34;</span><span class=p>],</span> <span class=nx>req</span><span class=p>[</span><span class=s2>&#34;key&#34;</span><span class=p>],</span> <span class=nx>admin</span><span class=p>)</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=nx>console</span><span class=p>.</span><span class=nx>log</span><span class=p>(</span><span class=s2>&#34;stat &#34;</span> <span class=o>+</span> <span class=nx>stat</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>    <span class=nx>console</span><span class=p>.</span><span class=nx>log</span><span class=p>(</span><span class=s2>&#34;stat &#34;</span> <span class=o>+</span> <span class=nx>stat</span><span class=p>)</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=k>if</span> <span class=p>(</span><span class=k>typeof</span><span class=p>(</span><span class=nx>stat</span><span class=p>)</span> <span class=o>==</span> <span class=s2>&#34;undefined&#34;</span><span class=p>){</span>
+</span></span><span class=line><span class=cl>    <span class=k>if</span> <span class=p>(</span><span class=k>typeof</span><span class=p>(</span><span class=nx>stat</span><span class=p>)</span> <span class=o>==</span> <span class=s2>&#34;undefined&#34;</span><span class=p>){</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=k>return</span> <span class=k>new</span> <span class=nx>Response</span><span class=p>(</span><span class=sb>`{&#34;status&#34;:200,&#34;key&#34;:&#34;/`</span><span class=o>+</span><span class=nx>random_key</span><span class=o>+</span><span class=sb>`&#34;}`</span><span class=p>,</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>      <span class=k>return</span> <span class=k>new</span> <span class=nx>Response</span><span class=p>(</span><span class=sb>`{&#34;status&#34;:200,&#34;key&#34;:&#34;/`</span><span class=o>+</span><span class=nx>random_key</span><span class=o>+</span><span class=sb>`&#34;}`</span><span class=p>,</span> <span class=p>{</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=nx>headers</span><span class=o>:</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>      <span class=nx>headers</span><span class=o>:</span> <span class=p>{</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=s2>&#34;content-type&#34;</span><span class=o>:</span> <span class=s2>&#34;text/html;charset=UTF-8&#34;</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>      <span class=s2>&#34;content-type&#34;</span><span class=o>:</span> <span class=s2>&#34;text/html;charset=UTF-8&#34;</span><span class=p>,</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=s2>&#34;Access-Control-Allow-Origin&#34;</span><span class=o>:</span><span class=s2>&#34;*&#34;</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>      <span class=s2>&#34;Access-Control-Allow-Origin&#34;</span><span class=o>:</span><span class=s2>&#34;*&#34;</span><span class=p>,</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=s2>&#34;Access-Control-Allow-Methods&#34;</span><span class=o>:</span> <span class=s2>&#34;POST&#34;</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>      <span class=s2>&#34;Access-Control-Allow-Methods&#34;</span><span class=o>:</span> <span class=s2>&#34;POST&#34;</span><span class=p>,</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=p>},</span>
+</span></span><span class=line><span class=cl>      <span class=p>},</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=p>})</span>
+</span></span><span class=line><span class=cl>    <span class=p>})</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=p>}</span><span class=k>else</span><span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span><span class=k>else</span><span class=p>{</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=k>return</span> <span class=k>new</span> <span class=nx>Response</span><span class=p>(</span><span class=sb>`{&#34;status&#34;:200,&#34;key&#34;:&#34;: Error:Reach the KV write limitation.&#34;}`</span><span class=p>,</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>      <span class=k>return</span> <span class=k>new</span> <span class=nx>Response</span><span class=p>(</span><span class=sb>`{&#34;status&#34;:200,&#34;key&#34;:&#34;: Error:Reach the KV write limitation.&#34;}`</span><span class=p>,</span> <span class=p>{</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=nx>headers</span><span class=o>:</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>      <span class=nx>headers</span><span class=o>:</span> <span class=p>{</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=s2>&#34;content-type&#34;</span><span class=o>:</span> <span class=s2>&#34;text/html;charset=UTF-8&#34;</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>      <span class=s2>&#34;content-type&#34;</span><span class=o>:</span> <span class=s2>&#34;text/html;charset=UTF-8&#34;</span><span class=p>,</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=s2>&#34;Access-Control-Allow-Origin&#34;</span><span class=o>:</span><span class=s2>&#34;*&#34;</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>      <span class=s2>&#34;Access-Control-Allow-Origin&#34;</span><span class=o>:</span><span class=s2>&#34;*&#34;</span><span class=p>,</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=s2>&#34;Access-Control-Allow-Methods&#34;</span><span class=o>:</span> <span class=s2>&#34;POST&#34;</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>      <span class=s2>&#34;Access-Control-Allow-Methods&#34;</span><span class=o>:</span> <span class=s2>&#34;POST&#34;</span><span class=p>,</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=p>},</span>
+</span></span><span class=line><span class=cl>      <span class=p>},</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=p>})}</span>
+</span></span><span class=line><span class=cl>    <span class=p>})}</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=p>}</span><span class=k>else</span> <span class=k>if</span><span class=p>(</span><span class=nx>request</span><span class=p>.</span><span class=nx>method</span> <span class=o>===</span> <span class=s2>&#34;OPTIONS&#34;</span><span class=p>){</span> <span class=err> </span>
+</span></span><span class=line><span class=cl>  <span class=p>}</span><span class=k>else</span> <span class=k>if</span><span class=p>(</span><span class=nx>request</span><span class=p>.</span><span class=nx>method</span> <span class=o>===</span> <span class=s2>&#34;OPTIONS&#34;</span><span class=p>){</span>  
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=k>return</span> <span class=k>new</span> <span class=nx>Response</span><span class=p>(</span><span class=sb>``</span><span class=p>,</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>      <span class=k>return</span> <span class=k>new</span> <span class=nx>Response</span><span class=p>(</span><span class=sb>``</span><span class=p>,</span> <span class=p>{</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=nx>headers</span><span class=o>:</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>      <span class=nx>headers</span><span class=o>:</span> <span class=p>{</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=s2>&#34;content-type&#34;</span><span class=o>:</span> <span class=s2>&#34;text/html;charset=UTF-8&#34;</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>      <span class=s2>&#34;content-type&#34;</span><span class=o>:</span> <span class=s2>&#34;text/html;charset=UTF-8&#34;</span><span class=p>,</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=s2>&#34;Access-Control-Allow-Origin&#34;</span><span class=o>:</span><span class=s2>&#34;*&#34;</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>      <span class=s2>&#34;Access-Control-Allow-Origin&#34;</span><span class=o>:</span><span class=s2>&#34;*&#34;</span><span class=p>,</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=s2>&#34;Access-Control-Allow-Methods&#34;</span><span class=o>:</span> <span class=s2>&#34;POST&#34;</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>      <span class=s2>&#34;Access-Control-Allow-Methods&#34;</span><span class=o>:</span> <span class=s2>&#34;POST&#34;</span><span class=p>,</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=p>},</span>
+</span></span><span class=line><span class=cl>      <span class=p>},</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=p>})</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>  
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=p>}</span>
+</span></span><span class=line><span class=cl>    <span class=p>})</span>
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl>  
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=kr>const</span> <span class=nx>requestURL</span> <span class=o>=</span> <span class=k>new</span> <span class=nx>URL</span><span class=p>(</span><span class=nx>request</span><span class=p>.</span><span class=nx>url</span><span class=p>)</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=kr>const</span> <span class=nx>path</span> <span class=o>=</span> <span class=nx>requestURL</span><span class=p>.</span><span class=nx>pathname</span><span class=p>.</span><span class=nx>split</span><span class=p>(</span><span class=s2>&#34;/&#34;</span><span class=p>)[</span><span class=mi>1</span><span class=p>]</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=nx>console</span><span class=p>.</span><span class=nx>log</span><span class=p>(</span><span class=nx>path</span><span class=p>)</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=k>if</span><span class=p>(</span><span class=o>!</span><span class=nx>path</span><span class=p>){</span>
+</span></span><span class=line><span class=cl>  <span class=p>}</span>
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl>  
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=kr>const</span> <span class=nx>html</span><span class=o>=</span> <span class=kr>await</span> <span class=nx>fetch</span><span class=p>(</span><span class=sb>`https://cdn.jsdelivr.net/gh/</span><span class=si>${</span><span class=nx>github_repo</span><span class=si>}${</span><span class=nx>github_version</span><span class=si>}</span><span class=sb>/index.html`</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>  <span class=kr>const</span> <span class=nx>requestURL</span> <span class=o>=</span> <span class=k>new</span> <span class=nx>URL</span><span class=p>(</span><span class=nx>request</span><span class=p>.</span><span class=nx>url</span><span class=p>)</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=kr>const</span> <span class=nx>text</span> <span class=o>=</span> <span class=p>(</span><span class=kr>await</span> <span class=nx>html</span><span class=p>.</span><span class=nx>text</span><span class=p>())</span>
+</span></span><span class=line><span class=cl>  <span class=kr>const</span> <span class=nx>path</span> <span class=o>=</span> <span class=nx>requestURL</span><span class=p>.</span><span class=nx>pathname</span><span class=p>.</span><span class=nx>split</span><span class=p>(</span><span class=s2>&#34;/&#34;</span><span class=p>)[</span><span class=mi>1</span><span class=p>]</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=p>.</span><span class=nx>replaceAll</span><span class=p>(</span><span class=s2>&#34;###GITHUB_REPO###&#34;</span><span class=p>,</span> <span class=nx>github_repo</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>  <span class=nx>console</span><span class=p>.</span><span class=nx>log</span><span class=p>(</span><span class=nx>path</span><span class=p>)</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=p>.</span><span class=nx>replaceAll</span><span class=p>(</span><span class=s2>&#34;###GITHUB_VERSION###&#34;</span><span class=p>,</span> <span class=nx>github_version</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>  <span class=k>if</span><span class=p>(</span><span class=o>!</span><span class=nx>path</span><span class=p>){</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=p>.</span><span class=nx>replaceAll</span><span class=p>(</span><span class=s2>&#34;###DEMO_NOTICE###&#34;</span><span class=p>,</span> <span class=nx>demo_notice</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>  
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=k>return</span> <span class=k>new</span> <span class=nx>Response</span><span class=p>(</span><span class=nx>text</span><span class=p>,</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=kr>const</span> <span class=nx>html</span><span class=o>=</span> <span class=kr>await</span> <span class=nx>fetch</span><span class=p>(</span><span class=sb>`https://cdn.jsdelivr.net/gh/</span><span class=si>${</span><span class=nx>github_repo</span><span class=si>}${</span><span class=nx>github_version</span><span class=si>}</span><span class=sb>/index.html`</span><span class=p>)</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=nx>headers</span><span class=o>:</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=kr>const</span> <span class=nx>text</span> <span class=o>=</span> <span class=p>(</span><span class=kr>await</span> <span class=nx>html</span><span class=p>.</span><span class=nx>text</span><span class=p>())</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=s2>&#34;content-type&#34;</span><span class=o>:</span> <span class=s2>&#34;text/html;charset=UTF-8&#34;</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>        <span class=p>.</span><span class=nx>replaceAll</span><span class=p>(</span><span class=s2>&#34;###GITHUB_REPO###&#34;</span><span class=p>,</span> <span class=nx>github_repo</span><span class=p>)</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=p>},</span>
+</span></span><span class=line><span class=cl>        <span class=p>.</span><span class=nx>replaceAll</span><span class=p>(</span><span class=s2>&#34;###GITHUB_VERSION###&#34;</span><span class=p>,</span> <span class=nx>github_version</span><span class=p>)</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=p>})</span>
+</span></span><span class=line><span class=cl>        <span class=p>.</span><span class=nx>replaceAll</span><span class=p>(</span><span class=s2>&#34;###DEMO_NOTICE###&#34;</span><span class=p>,</span> <span class=nx>demo_notice</span><span class=p>)</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=p>}</span>
+</span></span><span class=line><span class=cl>    <span class=k>return</span> <span class=k>new</span> <span class=nx>Response</span><span class=p>(</span><span class=nx>text</span><span class=p>,</span> <span class=p>{</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=kr>const</span> <span class=nx>url</span> <span class=o>=</span> <span class=kr>await</span> <span class=nx>load_url</span><span class=p>(</span><span class=nx>path</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>    <span class=nx>headers</span><span class=o>:</span> <span class=p>{</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=k>if</span> <span class=p>(</span><span class=o>!</span><span class=nx>url</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>      <span class=s2>&#34;content-type&#34;</span><span class=o>:</span> <span class=s2>&#34;text/html;charset=UTF-8&#34;</span><span class=p>,</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=c1>// 找不到或者超时直接404,
+</span></span><span class=line><span class=cl>    <span class=p>},</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=p>})</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=kr>const</span> <span class=nx>url</span> <span class=o>=</span> <span class=kr>await</span> <span class=nx>load_url</span><span class=p>(</span><span class=nx>path</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=k>if</span> <span class=p>(</span><span class=o>!</span><span class=nx>url</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=c1>// 找不到或者超时直接404,
 </span></span></span><span class=line><span class=cl><span class=c1></span>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=nx>console</span><span class=p>.</span><span class=nx>log</span><span class=p>(</span><span class=s1>&#39;not found&#39;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>    <span class=nx>console</span><span class=p>.</span><span class=nx>log</span><span class=p>(</span><span class=s1>&#39;not found&#39;</span><span class=p>)</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=k>return</span> <span class=k>new</span> <span class=nx>Response</span><span class=p>(</span><span class=nx>html404</span><span class=p>,</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=k>return</span> <span class=k>new</span> <span class=nx>Response</span><span class=p>(</span><span class=nx>html404</span><span class=p>,</span> <span class=p>{</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=nx>headers</span><span class=o>:</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>      <span class=nx>headers</span><span class=o>:</span> <span class=p>{</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=s2>&#34;content-type&#34;</span><span class=o>:</span> <span class=s2>&#34;text/html;charset=UTF-8&#34;</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>        <span class=s2>&#34;content-type&#34;</span><span class=o>:</span> <span class=s2>&#34;text/html;charset=UTF-8&#34;</span><span class=p>,</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=p>},</span>
+</span></span><span class=line><span class=cl>      <span class=p>},</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=err> </span> <span class=nx>status</span><span class=o>:</span> <span class=mi>404</span>
+</span></span><span class=line><span class=cl>      <span class=nx>status</span><span class=o>:</span> <span class=mi>404</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=err> </span> <span class=p>})</span>
+</span></span><span class=line><span class=cl>    <span class=p>})</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=p>}</span>
+</span></span><span class=line><span class=cl>  <span class=p>}</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=k>return</span> <span class=nx>Response</span><span class=p>.</span><span class=nx>redirect</span><span class=p>(</span><span class=nx>url</span><span class=p>,</span> <span class=mi>302</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>  <span class=k>return</span> <span class=nx>Response</span><span class=p>.</span><span class=nx>redirect</span><span class=p>(</span><span class=nx>url</span><span class=p>,</span> <span class=mi>302</span><span class=p>)</span>
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=p>}</span>
 </span></span><span class=line><span class=cl>
@@ -877,7 +877,7 @@
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=nx>addEventListener</span><span class=p>(</span><span class=s2>&#34;fetch&#34;</span><span class=p>,</span> <span class=kr>async</span> <span class=nx>event</span> <span class=p>=&gt;</span> <span class=p>{</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err> </span> <span class=nx>event</span><span class=p>.</span><span class=nx>respondWith</span><span class=p>(</span><span class=nx>handleRequest</span><span class=p>(</span><span class=nx>event</span><span class=p>.</span><span class=nx>request</span><span class=p>))</span>
+</span></span><span class=line><span class=cl>  <span class=nx>event</span><span class=p>.</span><span class=nx>respondWith</span><span class=p>(</span><span class=nx>handleRequest</span><span class=p>(</span><span class=nx>event</span><span class=p>.</span><span class=nx>request</span><span class=p>))</span>
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=p>})</span>
 </span></span></code></pre></td></tr></table></div></div><ol start=5><li>最后一步，添加自定义域名，域名需先托管到cloudflare解析，此时你就可以通过这个域名访问并生成短链接了。
