@@ -5,5 +5,5 @@
 ---
 
 > 作者: Kingpo  
-> URL: https://hugo.111520.xyz/posts/-2023-05-10-modem-super-su-and-broadband-account-password/  
+> URL: https://hugo.111520.xyz/posts/_2023-05-10-modem-super-su-and-broadband-account-password/  
 
