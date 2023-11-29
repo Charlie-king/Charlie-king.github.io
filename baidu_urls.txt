@@ -2,13 +2,13 @@ https://hugo.111520.xyz/posts/2023-07-05-pve-setting/
 https://hugo.111520.xyz/posts/2023-07-04-docker-running-error-job-for-docker.service-failed-because-the-control-process-exited-with-error-code./
 https://hugo.111520.xyz/posts/2023-06-19-qinglong-dependency/
 https://hugo.111520.xyz/posts/2023-06-15-vmware-auto-start/
-https://hugo.111520.xyz/posts/_2023-06-05-riji/
+https://hugo.111520.xyz/posts/2010-06-05-riji/
 https://hugo.111520.xyz/posts/2023-05-31-linux-ubuntu-setting/
 https://hugo.111520.xyz/posts/2023-05-29-linux-vmware-ubuntu/
 https://hugo.111520.xyz/posts/2023-05-26-nginx-http-redirect-https/
 https://hugo.111520.xyz/posts/2023-05-22-home-server/
 https://hugo.111520.xyz/posts/2023-05-10-ubuntu-su/
-https://hugo.111520.xyz/posts/_2023-05-10-modem-super-su-and-broadband-account-password/
+https://hugo.111520.xyz/posts/2010-01-01-modem-super-su-and-broadband-account-password/
 https://hugo.111520.xyz/posts/2023-05-07-windows-rdp-ubuntu/
 https://hugo.111520.xyz/posts/2023-04-26-password-management-and-2fa/
 https://hugo.111520.xyz/posts/2023-04-24-cloudflare-warp/
