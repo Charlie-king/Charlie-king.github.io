@@ -5,5 +5,5 @@
 ---
 
 > 作者: Kingpo  
-> URL: https://hugo.111520.xyz/posts/2010-06-05-riji/  
+> URL: https://hugo.111520.xyz/posts/2010-02-01-riji/  
 

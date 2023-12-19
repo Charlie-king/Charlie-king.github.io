@@ -2,7 +2,7 @@ https://hugo.111520.xyz/posts/2023-07-05-pve-setting/
 https://hugo.111520.xyz/posts/2023-07-04-docker-running-error-job-for-docker.service-failed-because-the-control-process-exited-with-error-code./
 https://hugo.111520.xyz/posts/2023-06-19-qinglong-dependency/
 https://hugo.111520.xyz/posts/2023-06-15-vmware-auto-start/
-https://hugo.111520.xyz/posts/2010-06-05-riji/
+https://hugo.111520.xyz/posts/2010-02-01-riji/
 https://hugo.111520.xyz/posts/2023-05-31-linux-ubuntu-setting/
 https://hugo.111520.xyz/posts/2023-05-29-linux-vmware-ubuntu/
 https://hugo.111520.xyz/posts/2023-05-26-nginx-http-redirect-https/
