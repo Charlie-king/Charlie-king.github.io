@@ -1,9 +1,9 @@
+https://hugo.111520.xyz/posts/2023-07-05-pve-setting/
 https://hugo.111520.xyz/posts/2024-10-31-lenovo-computer-cpu-turns-on-virtualization/
 https://hugo.111520.xyz/posts/2010-01-02-clipboard/
 https://hugo.111520.xyz/posts/2010-01-02-a-series-of-examples-of-modem-customers/
 https://hugo.111520.xyz/posts/2024-08-25-kaogong-materials/
 https://hugo.111520.xyz/posts/2024-06-27-2024-reading-notes/
-https://hugo.111520.xyz/posts/2023-07-05-pve-setting/
 https://hugo.111520.xyz/posts/2023-07-04-docker-running-error-job-for-docker.service-failed-because-the-control-process-exited-with-error-code./
 https://hugo.111520.xyz/posts/2023-06-19-qinglong-dependency/
 https://hugo.111520.xyz/posts/2023-06-15-vmware-auto-start/
