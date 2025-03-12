@@ -5,5 +5,5 @@
 ---
 
 > 作者: Kingpo  
-> URL: https://hugo.111520.xyz/posts/2010-01-01-modem-old/  
+> URL: https://hugo.111520.xyz/posts/2010-01-01-old-modem/  
 

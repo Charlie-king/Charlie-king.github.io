@@ -16,8 +16,8 @@ https://hugo.111520.xyz/posts/2023-05-29-linux-vmware-ubuntu/
 https://hugo.111520.xyz/posts/2023-05-26-nginx-http-redirect-https/
 https://hugo.111520.xyz/posts/2023-05-22-home-server/
 https://hugo.111520.xyz/posts/2023-05-10-ubuntu-su/
-https://hugo.111520.xyz/posts/2010-01-01-modem-old/
 https://hugo.111520.xyz/posts/2010-01-01-modem-super-su-and-broadband-account-password/
+https://hugo.111520.xyz/posts/2010-01-01-old-modem/
 https://hugo.111520.xyz/posts/2023-05-07-windows-rdp-ubuntu/
 https://hugo.111520.xyz/posts/2023-04-26-password-management-and-2fa/
 https://hugo.111520.xyz/posts/2023-04-24-cloudflare-warp/
