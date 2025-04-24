@@ -1,5 +1,41 @@
-# 联想Thinkpad的BIOS配置说明
+# 
 
+hugo.111520.yzz---
+title: "联想Thinkpad的BIOS配置说明"
+subtitle: "联想Thinkpad的BIOS配置字段说明"
+date: 2024-12-10T18:08:20+08:00
+
+lastmod: 2024-12-10T17:08:20+08:00
+draft: false
+description: "联想电脑，笔记本Thinkpad的BIOS配置字段说明"
+keywords: 
+- Thinkpad
+- 联通笔记本bios
+- bios
+tags:
+- BIOS
+categories:
+- 配置
+featuredImage: ""
+featuredImagePreview: ""
+
+password: ""
+message: "提示信息"
+
+author: "Kingpo"
+authorLink: ""
+authorEmail: ""
+
+comment: true
+weight: 0
+
+toc:
+  enable: true
+
+seo:
+  images: []
+# See details front matter: /theme-documentation-content/#front-matter
+---
 
 <!--more-->
 

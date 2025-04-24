@@ -1,4 +1,4 @@
-https://hugo.111520.xyz/posts/2024-12-10-thinkpad-bios/
+https://hugo.111520.xyz/posts/2025-04-23-the-easiest-way-to-activate-win10-win11-office/
 https://hugo.111520.xyz/posts/2024-11-21-google-alias-email/
 https://hugo.111520.xyz/posts/2024-11-19-pve-win10-tiny10-installation/
 https://hugo.111520.xyz/posts/2023-07-05-pve-setting/
@@ -68,3 +68,4 @@ https://hugo.111520.xyz/posts/2019-02-11-village-history/
 https://hugo.111520.xyz/posts/2018-12-05-xiangtalan-reading-notes/
 https://hugo.111520.xyz/posts/2017-05-04-bikes-college-time/
 https://hugo.111520.xyz/posts/2015-06-03-tea-soul/
+https://hugo.111520.xyz/posts/2024-12-10-thinkpad-bios/
