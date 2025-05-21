@@ -1,3 +1,4 @@
+https://hugo.111520.xyz/posts/2025-05-21-solutions-for-when-the-software-does-not-display-the-interface-after-opening/
 https://hugo.111520.xyz/posts/2025-04-23-the-easiest-way-to-activate-win10-win11-office/
 https://hugo.111520.xyz/posts/2024-11-21-google-alias-email/
 https://hugo.111520.xyz/posts/2024-11-19-pve-win10-tiny10-installation/
@@ -16,6 +17,7 @@ https://hugo.111520.xyz/posts/2023-05-29-linux-vmware-ubuntu/
 https://hugo.111520.xyz/posts/2023-05-26-nginx-http-redirect-https/
 https://hugo.111520.xyz/posts/2023-05-22-home-server/
 https://hugo.111520.xyz/posts/2023-05-10-ubuntu-su/
+https://hugo.111520.xyz/posts/2010-01-01-modem-old/
 https://hugo.111520.xyz/posts/2010-01-01-modem-super-su-and-broadband-account-password/
 https://hugo.111520.xyz/posts/2010-01-01-old-modem/
 https://hugo.111520.xyz/posts/2023-05-07-windows-rdp-ubuntu/
